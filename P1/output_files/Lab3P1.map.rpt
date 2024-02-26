@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Lab3P1
-Mon Feb 26 01:32:33 2024
+Mon Feb 26 04:04:45 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -14,32 +14,33 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. State Machine - |top_level|fsm:FSM|state
-  9. Registers Removed During Synthesis
- 10. General Register Statistics
- 11. Parameter Settings for User Entity Instance: datapath:DATAPATH
- 12. Parameter Settings for User Entity Instance: datapath:DATAPATH|mux:I_MUX
- 13. Parameter Settings for User Entity Instance: datapath:DATAPATH|mux:X_MUX
- 14. Parameter Settings for User Entity Instance: datapath:DATAPATH|mux:Y_MUX
- 15. Parameter Settings for User Entity Instance: datapath:DATAPATH|mux:RESULT_MUX
- 16. Parameter Settings for User Entity Instance: datapath:DATAPATH|reg:I_REG
- 17. Parameter Settings for User Entity Instance: datapath:DATAPATH|reg:X_REG
- 18. Parameter Settings for User Entity Instance: datapath:DATAPATH|reg:Y_REG
- 19. Parameter Settings for User Entity Instance: datapath:DATAPATH|reg:N_REG
- 20. Parameter Settings for User Entity Instance: datapath:DATAPATH|add:ADD1
- 21. Parameter Settings for User Entity Instance: datapath:DATAPATH|add:ADD2
- 22. Parameter Settings for User Entity Instance: datapath:DATAPATH|comparator:N_COMP
- 23. Parameter Settings for User Entity Instance: datapath:DATAPATH|comparator:LE_COMP
- 24. Port Connectivity Checks: "datapath:DATAPATH|comparator:LE_COMP"
- 25. Port Connectivity Checks: "datapath:DATAPATH|comparator:N_COMP"
- 26. Port Connectivity Checks: "datapath:DATAPATH|add:ADD1"
- 27. Port Connectivity Checks: "datapath:DATAPATH|reg:N_REG"
- 28. Port Connectivity Checks: "datapath:DATAPATH|mux:RESULT_MUX"
- 29. Port Connectivity Checks: "datapath:DATAPATH|mux:Y_MUX"
- 30. Port Connectivity Checks: "datapath:DATAPATH|mux:X_MUX"
- 31. Port Connectivity Checks: "datapath:DATAPATH|mux:I_MUX"
- 32. Post-Synthesis Netlist Statistics for Top Partition
- 33. Elapsed Time Per Partition
- 34. Analysis & Synthesis Messages
+  9. User-Specified and Inferred Latches
+ 10. Registers Removed During Synthesis
+ 11. General Register Statistics
+ 12. Parameter Settings for User Entity Instance: datapath:DATAPATH
+ 13. Parameter Settings for User Entity Instance: datapath:DATAPATH|mux:I_MUX
+ 14. Parameter Settings for User Entity Instance: datapath:DATAPATH|mux:X_MUX
+ 15. Parameter Settings for User Entity Instance: datapath:DATAPATH|mux:Y_MUX
+ 16. Parameter Settings for User Entity Instance: datapath:DATAPATH|mux:RESULT_MUX
+ 17. Parameter Settings for User Entity Instance: datapath:DATAPATH|reg:I_REG
+ 18. Parameter Settings for User Entity Instance: datapath:DATAPATH|reg:X_REG
+ 19. Parameter Settings for User Entity Instance: datapath:DATAPATH|reg:Y_REG
+ 20. Parameter Settings for User Entity Instance: datapath:DATAPATH|reg:N_REG
+ 21. Parameter Settings for User Entity Instance: datapath:DATAPATH|add:ADD1
+ 22. Parameter Settings for User Entity Instance: datapath:DATAPATH|add:ADD2
+ 23. Parameter Settings for User Entity Instance: datapath:DATAPATH|comparator:N_COMP
+ 24. Parameter Settings for User Entity Instance: datapath:DATAPATH|comparator:LE_COMP
+ 25. Port Connectivity Checks: "datapath:DATAPATH|comparator:LE_COMP"
+ 26. Port Connectivity Checks: "datapath:DATAPATH|comparator:N_COMP"
+ 27. Port Connectivity Checks: "datapath:DATAPATH|add:ADD1"
+ 28. Port Connectivity Checks: "datapath:DATAPATH|reg:N_REG"
+ 29. Port Connectivity Checks: "datapath:DATAPATH|mux:RESULT_MUX"
+ 30. Port Connectivity Checks: "datapath:DATAPATH|mux:Y_MUX"
+ 31. Port Connectivity Checks: "datapath:DATAPATH|mux:X_MUX"
+ 32. Port Connectivity Checks: "datapath:DATAPATH|mux:I_MUX"
+ 33. Post-Synthesis Netlist Statistics for Top Partition
+ 34. Elapsed Time Per Partition
+ 35. Analysis & Synthesis Messages
 
 
 
@@ -66,13 +67,13 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Feb 26 01:32:33 2024          ;
+; Analysis & Synthesis Status        ; Successful - Mon Feb 26 04:04:45 2024          ;
 ; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                      ; Lab3P1                                         ;
 ; Top-level Entity Name              ; top_level                                      ;
 ; Family                             ; MAX 10                                         ;
-; Total logic elements               ; 142                                            ;
-;     Total combinational functions  ; 136                                            ;
+; Total logic elements               ; 187                                            ;
+;     Total combinational functions  ; 157                                            ;
 ;     Dedicated logic registers      ; 83                                             ;
 ; Total registers                    ; 83                                             ;
 ; Total pins                         ; 61                                             ;
@@ -209,17 +210,17 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 142       ;
+; Estimated Total logic elements              ; 187       ;
 ;                                             ;           ;
-; Total combinational functions               ; 136       ;
+; Total combinational functions               ; 157       ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 52        ;
-;     -- 3 input functions                    ; 30        ;
-;     -- <=2 input functions                  ; 54        ;
+;     -- 4 input functions                    ; 53        ;
+;     -- 3 input functions                    ; 40        ;
+;     -- <=2 input functions                  ; 64        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 85        ;
-;     -- arithmetic mode                      ; 51        ;
+;     -- normal mode                          ; 107       ;
+;     -- arithmetic mode                      ; 50        ;
 ;                                             ;           ;
 ; Total registers                             ; 83        ;
 ;     -- Dedicated logic registers            ; 83        ;
@@ -231,8 +232,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 83        ;
-; Total fan-out                               ; 933       ;
-; Average fan-out                             ; 2.74      ;
+; Total fan-out                               ; 888       ;
+; Average fan-out                             ; 2.45      ;
 +---------------------------------------------+-----------+
 
 
@@ -241,22 +242,20 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                             ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------+-------------+--------------+
-; |top_level                 ; 136 (1)             ; 83 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 61   ; 0            ; 0          ; |top_level                                      ; top_level   ; work         ;
-;    |datapath:DATAPATH|     ; 85 (0)              ; 78 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|datapath:DATAPATH                    ; datapath    ; work         ;
+; |top_level                 ; 157 (0)             ; 83 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 61   ; 0            ; 0          ; |top_level                                      ; top_level   ; work         ;
+;    |datapath:DATAPATH|     ; 60 (0)              ; 78 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|datapath:DATAPATH                    ; datapath    ; work         ;
 ;       |comparator:LE_COMP| ; 12 (12)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|datapath:DATAPATH|comparator:LE_COMP ; comparator  ; work         ;
-;       |comparator:N_COMP|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|datapath:DATAPATH|comparator:N_COMP  ; comparator  ; work         ;
-;       |mux:X_MUX|          ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|datapath:DATAPATH|mux:X_MUX          ; mux         ; work         ;
 ;       |reg:I_REG|          ; 24 (24)             ; 24 (24)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|datapath:DATAPATH|reg:I_REG          ; reg         ; work         ;
 ;       |reg:N_REG|          ; 0 (0)               ; 6 (6)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|datapath:DATAPATH|reg:N_REG          ; reg         ; work         ;
 ;       |reg:X_REG|          ; 0 (0)               ; 24 (24)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|datapath:DATAPATH|reg:X_REG          ; reg         ; work         ;
 ;       |reg:Y_REG|          ; 24 (24)             ; 24 (24)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|datapath:DATAPATH|reg:Y_REG          ; reg         ; work         ;
-;    |decode7seg:U_LED0|     ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|decode7seg:U_LED0                    ; decode7seg  ; work         ;
-;    |decode7seg:U_LED1|     ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|decode7seg:U_LED1                    ; decode7seg  ; work         ;
-;    |decode7seg:U_LED2|     ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|decode7seg:U_LED2                    ; decode7seg  ; work         ;
-;    |decode7seg:U_LED3|     ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|decode7seg:U_LED3                    ; decode7seg  ; work         ;
-;    |decode7seg:U_LED4|     ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|decode7seg:U_LED4                    ; decode7seg  ; work         ;
-;    |decode7seg:U_LED5|     ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|decode7seg:U_LED5                    ; decode7seg  ; work         ;
-;    |fsm:FSM|               ; 8 (8)               ; 5 (5)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|fsm:FSM                              ; fsm         ; work         ;
+;    |decode7seg:U_LED0|     ; 14 (14)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|decode7seg:U_LED0                    ; decode7seg  ; work         ;
+;    |decode7seg:U_LED1|     ; 14 (14)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|decode7seg:U_LED1                    ; decode7seg  ; work         ;
+;    |decode7seg:U_LED2|     ; 14 (14)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|decode7seg:U_LED2                    ; decode7seg  ; work         ;
+;    |decode7seg:U_LED3|     ; 14 (14)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|decode7seg:U_LED3                    ; decode7seg  ; work         ;
+;    |decode7seg:U_LED4|     ; 14 (14)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|decode7seg:U_LED4                    ; decode7seg  ; work         ;
+;    |decode7seg:U_LED5|     ; 14 (14)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|decode7seg:U_LED5                    ; decode7seg  ; work         ;
+;    |fsm:FSM|               ; 13 (13)             ; 5 (5)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|fsm:FSM                              ; fsm         ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -273,6 +272,21 @@ Encoding Type:  One-Hot
 ; state.CHECK_LE    ; 0                ; 1              ; 0                 ; 0            ; 1          ;
 ; state.DONE_STATE  ; 1                ; 0              ; 0                 ; 0            ; 1          ;
 +-------------------+------------------+----------------+-------------------+--------------+------------+
+
+
++-----------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                       ;
++----------------------------------------------------+-----------------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal         ; Free of Timing Hazards ;
++----------------------------------------------------+-----------------------------+------------------------+
+; fsm:FSM|result_sel                                 ; fsm:FSM|WideOr2             ; yes                    ;
+; fsm:FSM|done                                       ; fsm:FSM|Selector8           ; yes                    ;
+; fsm:FSM|y_en                                       ; fsm:FSM|next_state.CHECK_LE ; yes                    ;
+; fsm:FSM|x_en                                       ; fsm:FSM|next_state.CHECK_LE ; yes                    ;
+; fsm:FSM|i_en                                       ; fsm:FSM|next_state.CHECK_LE ; yes                    ;
+; Number of user-specified and inferred latches = 5  ;                             ;                        ;
++----------------------------------------------------+-----------------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +---------------------------------------------------------------------------------+
@@ -292,10 +306,10 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Total registers                              ; 83    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 48    ;
+; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 83    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 78    ;
+; Number of registers using Clock Enable       ; 71    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -514,22 +528,20 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; boundary_port         ; 61                          ;
 ; cycloneiii_ff         ; 83                          ;
-;     CLR               ; 5                           ;
-;     ENA CLR           ; 30                          ;
-;     ENA CLR SLD       ; 48                          ;
-; cycloneiii_lcell_comb ; 143                         ;
-;     arith             ; 51                          ;
-;         2 data inputs ; 23                          ;
-;         3 data inputs ; 28                          ;
-;     normal            ; 92                          ;
-;         0 data inputs ; 1                           ;
-;         1 data inputs ; 8                           ;
-;         2 data inputs ; 29                          ;
-;         3 data inputs ; 2                           ;
-;         4 data inputs ; 52                          ;
+;     CLR               ; 12                          ;
+;     ENA CLR           ; 71                          ;
+; cycloneiii_lcell_comb ; 158                         ;
+;     arith             ; 50                          ;
+;         2 data inputs ; 21                          ;
+;         3 data inputs ; 29                          ;
+;     normal            ; 108                         ;
+;         1 data inputs ; 2                           ;
+;         2 data inputs ; 42                          ;
+;         3 data inputs ; 11                          ;
+;         4 data inputs ; 53                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 2.39                        ;
+; Max LUT depth         ; 3.50                        ;
+; Average LUT depth     ; 2.36                        ;
 +-----------------------+-----------------------------+
 
 
@@ -548,7 +560,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Mon Feb 26 01:32:28 2024
+    Info: Processing started: Mon Feb 26 04:04:40 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab3P1 -c Lab3P1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -573,7 +585,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file mux.vhd
     Info (12022): Found design unit 1: mux-rtl File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/mux.vhd Line: 19
     Info (12023): Found entity 1: mux File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/mux.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file fsm.vhd
-    Info (12022): Found design unit 1: fsm-behavioral File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 29
+    Info (12022): Found design unit 1: fsm-behavioral File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 34
     Info (12023): Found entity 1: fsm File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 8
 Info (12021): Found 2 design units, including 1 entities, in source file fib.vhd
     Info (12022): Found design unit 1: fib-fib_arch File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib.vhd Line: 19
@@ -588,8 +600,36 @@ Info (12128): Elaborating entity "reg" for hierarchy "datapath:DATAPATH|reg:I_RE
 Info (12128): Elaborating entity "add" for hierarchy "datapath:DATAPATH|add:ADD1" File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/datapath.vhd Line: 149
 Info (12128): Elaborating entity "comparator" for hierarchy "datapath:DATAPATH|comparator:N_COMP" File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/datapath.vhd Line: 170
 Info (12128): Elaborating entity "fsm" for hierarchy "fsm:FSM" File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd Line: 69
-Warning (10492): VHDL Process Statement warning at fsm.vhd(77): signal "n_eq_0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 77
+Warning (10631): VHDL Process Statement warning at fsm.vhd(52): inferring latch(es) for signal or variable "done", which holds its previous value in one or more paths through the process File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Warning (10631): VHDL Process Statement warning at fsm.vhd(52): inferring latch(es) for signal or variable "i_sel", which holds its previous value in one or more paths through the process File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Warning (10631): VHDL Process Statement warning at fsm.vhd(52): inferring latch(es) for signal or variable "x_sel", which holds its previous value in one or more paths through the process File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Warning (10631): VHDL Process Statement warning at fsm.vhd(52): inferring latch(es) for signal or variable "y_sel", which holds its previous value in one or more paths through the process File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Warning (10631): VHDL Process Statement warning at fsm.vhd(52): inferring latch(es) for signal or variable "i_en", which holds its previous value in one or more paths through the process File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Warning (10631): VHDL Process Statement warning at fsm.vhd(52): inferring latch(es) for signal or variable "x_en", which holds its previous value in one or more paths through the process File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Warning (10631): VHDL Process Statement warning at fsm.vhd(52): inferring latch(es) for signal or variable "y_en", which holds its previous value in one or more paths through the process File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Warning (10631): VHDL Process Statement warning at fsm.vhd(52): inferring latch(es) for signal or variable "n_en", which holds its previous value in one or more paths through the process File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Warning (10631): VHDL Process Statement warning at fsm.vhd(52): inferring latch(es) for signal or variable "result_en", which holds its previous value in one or more paths through the process File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Warning (10631): VHDL Process Statement warning at fsm.vhd(52): inferring latch(es) for signal or variable "result_sel", which holds its previous value in one or more paths through the process File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Info (10041): Inferred latch for "result_sel" at fsm.vhd(52) File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Info (10041): Inferred latch for "result_en" at fsm.vhd(52) File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Info (10041): Inferred latch for "n_en" at fsm.vhd(52) File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Info (10041): Inferred latch for "y_en" at fsm.vhd(52) File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Info (10041): Inferred latch for "x_en" at fsm.vhd(52) File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Info (10041): Inferred latch for "i_en" at fsm.vhd(52) File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Info (10041): Inferred latch for "y_sel" at fsm.vhd(52) File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Info (10041): Inferred latch for "x_sel" at fsm.vhd(52) File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Info (10041): Inferred latch for "i_sel" at fsm.vhd(52) File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
+Info (10041): Inferred latch for "done" at fsm.vhd(52) File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 52
 Info (12128): Elaborating entity "decode7seg" for hierarchy "decode7seg:U_LED5" File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd Line: 88
+Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
+    Info (13026): Duplicate LATCH primitive "fsm:FSM|x_en" merged with LATCH primitive "fsm:FSM|y_en" File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 24
+    Info (13026): Duplicate LATCH primitive "fsm:FSM|i_en" merged with LATCH primitive "fsm:FSM|y_en" File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 28
+Warning (13012): Latch fsm:FSM|result_sel has unsafe behavior File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 23
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fsm:FSM|state.DONE_STATE File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 37
+Warning (13012): Latch fsm:FSM|done has unsafe behavior File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fsm:FSM|state.DONE_STATE File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 37
+Warning (13012): Latch fsm:FSM|y_en has unsafe behavior File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 26
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal fsm:FSM|state.COMPUTE_FIB File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd Line: 37
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -598,14 +638,14 @@ Warning (21074): Design contains 4 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "switch[7]" File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd Line: 8
     Warning (15610): No output dependent on input pin "switch[8]" File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd Line: 8
     Warning (15610): No output dependent on input pin "switch[9]" File: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd Line: 8
-Info (21057): Implemented 204 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 249 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 48 output pins
-    Info (21061): Implemented 143 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 4894 megabytes
-    Info: Processing ended: Mon Feb 26 01:32:33 2024
+    Info (21061): Implemented 188 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 24 warnings
+    Info: Peak virtual memory: 4895 megabytes
+    Info: Processing ended: Mon Feb 26 04:04:45 2024
     Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
 
 
