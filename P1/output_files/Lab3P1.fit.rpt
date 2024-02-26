@@ -1,5 +1,5 @@
 Fitter report for Lab3P1
-Mon Feb 26 01:23:13 2024
+Mon Feb 26 04:05:57 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -69,7 +69,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                      ;
 +------------------------------------+------------------------------------------------+
-; Fitter Status                      ; Successful - Mon Feb 26 01:23:13 2024          ;
+; Fitter Status                      ; Successful - Mon Feb 26 04:05:57 2024          ;
 ; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                      ; Lab3P1                                         ;
 ; Top-level Entity Name              ; top_level                                      ;
@@ -160,8 +160,8 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.8%      ;
-;     Processors 3-16        ;   0.8%      ;
+;     Processor 2            ;   0.7%      ;
+;     Processors 3-16        ;   0.7%      ;
 +----------------------------+-------------+
 
 
@@ -2218,7 +2218,7 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "VGA_R[2]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_R[3]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_VS" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -2243,9 +2243,9 @@ Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments 
 Info (144001): Generated suppressed messages file C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/output_files/Lab3P1.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 195 warnings
     Info: Peak virtual memory: 6624 megabytes
-    Info: Processing ended: Mon Feb 26 01:23:13 2024
+    Info: Processing ended: Mon Feb 26 04:05:57 2024
     Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 
 +----------------------------+
