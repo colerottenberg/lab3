@@ -1,0 +1,83 @@
+Restore Archived Project report for Lab3P1
+Sun Mar  3 04:43:14 2024
+Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sun Mar  3 04:43:14 2024 ;
+; Revision Name                   ; Lab3P1                                ;
+; Top-level Entity Name           ; top_level                             ;
+; Family                          ; MAX 10                                ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/Lab3P1_tmp_archive.qar' into the 'C:/Users/coler/Documents/uf/spring24/dd/lab3/P2' directory
+Info: Generated report 'Lab3P1.restore.rpt'
+
+
++--------------------------------+
+; Files Restored                 ;
++--------------------------------+
+; File Name                      ;
++--------------------------------+
+; qar_info.json                  ;
+; Lab3P1.qpf                     ;
+; Lab3P1.qsf                     ;
+; Lab3P1_assignment_defaults.qdf ;
+; add.vhd                        ;
+; comparator.vhd                 ;
+; datapath.vhd                   ;
+; decode7seg.vhd                 ;
+; fib.vhd                        ;
+; fsm.vhd                        ;
+; fsm_tb.vhd                     ;
+; mux.vhd                        ;
+; reg.vhd                        ;
+; top_level.vhd                  ;
+; top_level_tb.vhd               ;
++--------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

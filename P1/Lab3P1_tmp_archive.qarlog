@@ -1,0 +1,31 @@
+Quartus Prime Archive log --	C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/Lab3P1_tmp_archive.qarlog
+
+Archive:	C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/Lab3P1_tmp_archive.qar
+Date:		Sun Mar  3 04:43:13 2024
+Quartus Prime		22.1std.0 Build 915 10/25/2022 SC Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/Lab3P1.qpf
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/Lab3P1.qsf
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/Lab3P1_assignment_defaults.qdf
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/add.vhd
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/comparator.vhd
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/datapath.vhd
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/decode7seg.vhd
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib.vhd
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/mux.vhd
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/reg.vhd
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level_tb.vhd
+	======= Total: 14 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sun Mar  3 04:43:14 2024
+Source archive file:	C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/Lab3P1_tmp_archive.qar
+Archive was extracted into	C:/Users/coler/Documents/uf/spring24/dd/lab3/P2/
+		 - successfully.
