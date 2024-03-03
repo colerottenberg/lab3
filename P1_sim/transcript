@@ -500,3 +500,118 @@ run -all
 step -out
 step -over
 step -over
+# Compile of top_level_tb.vhd was successful with warnings.
+# Compile of top_level_tb.vhd was successful with warnings.
+# Compile of add.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of DE10_LITE_Golden_Top.v was successful.
+# Compile of decode7seg.vhd was successful.
+# Compile of fib.vhd was successful.
+# Compile of fsm.vhd was successful.
+# Compile of fsm_tb.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of top_level_tb.vhd was successful with warnings.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.top_level_tb
+# End time: 00:00:14 on Mar 03,2024, Elapsed time: -4:-20:-53
+# Errors: 0, Warnings: 8
+# vsim -gui work.top_level_tb 
+# Start time: 00:00:14 on Mar 03,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.top_level_tb(tb)
+# Loading work.top_level(default)
+# Loading work.datapath(rtl)
+# Loading work.mux(rtl)
+# Loading work.reg(rtl)
+# Loading work.add(arch)
+# Loading work.comparator(behavioral)
+# Loading work.fsm(behavioral)
+# Loading work.decode7seg(rtl)
+add wave -position insertpoint sim:/top_level_tb/*
+run
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of top_level_tb.vhd was successful with warnings.
+vsim -gui work.top_level_tb
+# End time: 00:01:18 on Mar 03,2024, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 6
+# vsim -gui work.top_level_tb 
+# Start time: 00:01:18 on Mar 03,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.top_level_tb(tb)
+# Loading work.top_level(default)
+# Loading work.datapath(rtl)
+# Loading work.mux(rtl)
+# Loading work.reg(rtl)
+# Loading work.add(arch)
+# Loading work.comparator(behavioral)
+# Loading work.fsm(behavioral)
+# Loading work.decode7seg(rtl)
+add wave -position insertpoint sim:/top_level_tb/*
+run
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+# End time: 00:30:21 on Mar 03,2024, Elapsed time: 0:29:03
+# Errors: 0, Warnings: 5

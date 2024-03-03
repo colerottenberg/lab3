@@ -33,14 +33,12 @@ architecture tb of top_level_tb is
     wait for 10 ns;
 
     -- Button to start is second button
-    button <= "10";
-    wait for 20 ns;
-    button <= "00";
+    button(0) <= not button(0);
+    wait for 50 ns;
+    button(0) <= not button(0);
 
     -- Wait for the fibonacci sequence to be calculated as 89
     wait until dbg = "01011001";
-
-  
     -- End the simulation
     wait;
   end process;
