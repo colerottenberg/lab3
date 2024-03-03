@@ -70,11 +70,13 @@ begin
     rst <= '0';
     -- Start the FSM
     go <= '1';
+    i_le_n <= '1';
     wait for 10 ns;
     go <= '0';
 
-    wait for 100 ns;
-    i_le_n <= '1';
+
+    wait for 50 ns;
+    i_le_n <= '0';
 
 
     -- Wait for the FSM to finish

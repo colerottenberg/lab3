@@ -270,3 +270,52 @@ vsim -gui work.fsm_tb
 add wave -position insertpoint sim:/fsm_tb/*
 run
 run
+step
+run
+run
+run
+run
+run
+run
+# Compile of fsm_tb.vhd was successful.
+vsim -gui work.fsm_tb
+# End time: 03:21:05 on Mar 03,2024, Elapsed time: 0:12:03
+# Errors: 0, Warnings: 2
+# vsim -gui work.fsm_tb 
+# Start time: 03:21:05 on Mar 03,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+add wave -position insertpoint sim:/fsm_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

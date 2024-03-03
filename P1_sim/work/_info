@@ -296,12 +296,12 @@ R43
 R12
 R13
 Efsm_tb
-Z45 w1709453305
+Z45 w1709454031
 R1
 R26
 R2
 R3
-!i122 48
+!i122 49
 R4
 Z46 8C:\Users\coler\Documents\uf\spring24\dd\lab3\P1\fsm_tb.vhd
 Z47 FC:\Users\coler\Documents\uf\spring24\dd\lab3\P1\fsm_tb.vhd
@@ -311,9 +311,9 @@ VfTZXdIUb7hAQaA2W_7QA50
 !s100 JLFQf5`BbNFk8LaOOb?a21
 R7
 32
-Z48 !s110 1709453328
+Z48 !s110 1709454041
 !i10b 1
-Z49 !s108 1709453328.000000
+Z49 !s108 1709454041.000000
 Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\coler\Documents\uf\spring24\dd\lab3\P1\fsm_tb.vhd|
 Z51 !s107 C:\Users\coler\Documents\uf\spring24\dd\lab3\P1\fsm_tb.vhd|
 !i113 1
@@ -326,11 +326,11 @@ R26
 R2
 R3
 Z52 DEx4 work 6 fsm_tb 0 22 fTZXdIUb7hAQaA2W_7QA50
-!i122 48
+!i122 49
 l38
-L11 76
-VUTl9l4dlJR:m55bj:4hDG3
-!s100 N^FGBS`N]N[U@Za:`o7Qh2
+L11 78
+V01io=L6R0Kj2@[Q@LlPB;3
+!s100 V:[WAYPQXZneQm?aDINQa0
 R7
 32
 R48
