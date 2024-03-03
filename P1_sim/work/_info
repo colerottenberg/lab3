@@ -1,0 +1,406 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eadd
+Z0 w1708902210
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 11
+Z4 dC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1_sim
+Z5 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/add.vhd
+Z6 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/add.vhd
+l0
+L7 1
+VBJ4PjfMdMEIfD:lecDG<L0
+!s100 R<ZNXAI_@6PSD>WP?W`3e3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1709090842
+!i10b 1
+Z9 !s108 1709090842.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/add.vhd|
+Z11 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/add.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+R3
+Z14 DEx4 work 3 add 0 22 BJ4PjfMdMEIfD:lecDG<L0
+!i122 11
+l18
+L17 4
+VRSn]]B4_WIHgU9le6lJ0;2
+!s100 UMLdPBGajVJhSHkUji:nI3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecomparator
+R0
+R1
+R2
+R3
+!i122 12
+R4
+Z15 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/comparator.vhd
+Z16 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/comparator.vhd
+l0
+L6 1
+V6hS<fFM6YFUoKL:e1Ae`c2
+!s100 mnZ^j>5HSX0][nC5;V81`1
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/comparator.vhd|
+Z18 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/comparator.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z19 DEx4 work 10 comparator 0 22 6hS<fFM6YFUoKL:e1Ae`c2
+!i122 12
+l19
+L18 18
+Vm2O]IEP:cmI2MAmUfYdJ62
+!s100 M;56ZazoAQS:[IDXU0EC;3
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Edatapath
+Z20 w1709090814
+R1
+R2
+R3
+!i122 13
+R4
+Z21 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/datapath.vhd
+Z22 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/datapath.vhd
+l0
+L7 1
+VB_jo8hQYQf7P6TUMU]S:J3
+!s100 QTP8DZUJE9[_BVDOmA0Go3
+R7
+32
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/datapath.vhd|
+Z24 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/datapath.vhd|
+!i113 1
+R12
+R13
+Artl
+R19
+R14
+Z25 DEx4 work 3 reg 0 22 :D62AO>iKSzgKWJl;iRe73
+Z26 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z27 DEx4 work 3 mux 0 22 `=m6S^EQgCe<@z`dzjZme2
+R1
+R2
+R3
+Z28 DEx4 work 8 datapath 0 22 B_jo8hQYQf7P6TUMU]S:J3
+!i122 13
+l55
+L45 152
+VXlW8>SHbg>^_bfY`G?A[B2
+!s100 C=oK8<?N>2mzh7oD3FW?32
+R7
+32
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13
+Edecode7seg
+R0
+R2
+R3
+!i122 14
+R4
+Z29 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/decode7seg.vhd
+Z30 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/decode7seg.vhd
+l0
+L4 1
+Vn[3X<Pd4DUDP0HY_RhUzK3
+!s100 9DoEHo;[abhX44:78S]<93
+R7
+32
+R8
+!i10b 1
+R9
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/decode7seg.vhd|
+Z32 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/decode7seg.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+Z33 DEx4 work 10 decode7seg 0 22 n[3X<Pd4DUDP0HY_RhUzK3
+!i122 14
+l12
+L11 20
+V>^k<g74C[@IkSC=jBNaKH2
+!s100 :f^[2?O1>7YeahQbMf1a_0
+R7
+32
+R8
+!i10b 1
+R9
+R31
+R32
+!i113 1
+R12
+R13
+Efib
+R0
+R1
+R2
+R3
+!i122 15
+R4
+Z34 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib.vhd
+Z35 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib.vhd
+l0
+L7 1
+VG1dIN;91XTJG;IXEoNYaM3
+!s100 H>j@^e=VzO=en0RIL]R<g1
+R7
+32
+Z36 !s110 1709090843
+!i10b 1
+R9
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib.vhd|
+Z38 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib.vhd|
+!i113 1
+R12
+R13
+Afib_arch
+R1
+R2
+R3
+DEx4 work 3 fib 0 22 G1dIN;91XTJG;IXEoNYaM3
+!i122 15
+l24
+L19 59
+VkPb?K?9Sb2C>YF]iC6NFG0
+!s100 `Ra4FBLVFOJQZ<3Nm3DLG2
+R7
+32
+R36
+!i10b 1
+R9
+R37
+R38
+!i113 1
+R12
+R13
+Efsm
+Z39 w1709088568
+R1
+R2
+R3
+!i122 16
+R4
+Z40 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fsm.vhd
+Z41 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fsm.vhd
+l0
+L8 1
+V_1hIS66Y9eP7OL>N_PYQd1
+!s100 ]f4JdX@S44R7gJo?8`f0>2
+R7
+32
+R36
+!i10b 1
+Z42 !s108 1709090843.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fsm.vhd|
+Z44 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fsm.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z45 DEx4 work 3 fsm 0 22 _1hIS66Y9eP7OL>N_PYQd1
+!i122 16
+l39
+L34 103
+V_Ii?GMj?2ULD1kUBdl;=_3
+!s100 n^?:0B<F;RzWa[cc^P0@c1
+R7
+32
+R36
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R12
+R13
+Emux
+R0
+R1
+R26
+R2
+R3
+!i122 17
+R4
+Z46 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/mux.vhd
+Z47 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/mux.vhd
+l0
+L6 1
+V`=m6S^EQgCe<@z`dzjZme2
+!s100 zkCCzQoUT5BLNQ@VJ1?Ob1
+R7
+32
+R36
+!i10b 1
+R42
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/mux.vhd|
+Z49 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/mux.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R26
+R2
+R3
+R27
+!i122 17
+l20
+L19 11
+VKmJ:HgPUW?>^>oCAGgoD13
+!s100 BaII_6[mm7ceF>:_g3NM_2
+R7
+32
+R36
+!i10b 1
+R42
+R48
+R49
+!i113 1
+R12
+R13
+Ereg
+R0
+R1
+R2
+R3
+!i122 18
+R4
+Z50 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/reg.vhd
+Z51 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/reg.vhd
+l0
+L5 1
+V:D62AO>iKSzgKWJl;iRe73
+!s100 [SemnS@FUQGhd<OSJGK;91
+R7
+32
+R36
+!i10b 1
+R42
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/reg.vhd|
+Z53 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/reg.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+R25
+!i122 18
+l19
+L18 13
+VMzicXYDKEY3g:731]EYUN1
+!s100 ]eo]0bY5>6]6Z6A`Ze>8O0
+R7
+32
+R36
+!i10b 1
+R42
+R52
+R53
+!i113 1
+R12
+R13
+Etop_level
+Z54 w1708904948
+R1
+R2
+R3
+!i122 19
+R4
+Z55 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level.vhd
+Z56 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level.vhd
+l0
+L5 1
+V88koBiF^aO=VYi4?2dG;N1
+!s100 X`REf2m`ICC3_a@eQ[o[g1
+R7
+32
+R36
+!i10b 1
+R42
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level.vhd|
+Z58 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level.vhd|
+!i113 1
+R12
+R13
+Adefault
+R33
+R45
+R28
+R1
+R2
+R3
+Z59 DEx4 work 9 top_level 0 22 88koBiF^aO=VYi4?2dG;N1
+!i122 19
+l45
+Z60 L25 107
+Z61 VSHO;h<7mhb:4SmSeEMW@a1
+Z62 !s100 C`UgVhkHG6ZeGkh^hS4L30
+R7
+32
+R36
+!i10b 1
+R42
+R57
+R58
+!i113 1
+R12
+R13

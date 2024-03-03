@@ -6,7 +6,8 @@ use ieee.numeric_std.all;
 
 entity datapath is
     generic(
-      width : integer := 24
+      rwidth : integer := 24;
+      lwidth : integer := 6
     );
     port(
       -- clk and rst
@@ -14,8 +15,8 @@ entity datapath is
       rst : in std_logic;
       
       -- i/o 
-      n : in std_logic_vector(5 downto 0);
-      result : out std_logic_vector(23 downto 0);
+      n : in std_logic_vector(lwidth-1 downto 0);
+      result : out std_logic_vector(rwidth-1 downto 0);
       -- control inputs
       x_sel : in std_logic;
       y_sel : in std_logic;
@@ -42,54 +43,58 @@ end datapath;
 -- afterwards, the register is connected to the fibonacci logic
 
 architecture rtl of datapath is
-    signal i_reg_out, x_reg_out, y_reg_out, n_reg_out : std_logic_vector(width-1 downto 0);
-    signal i_mux_out, x_mux_out, y_mux_out, result_mux_out : std_logic_vector(width-1 downto 0);
-    signal add1_out, add2_out : std_logic_vector(width-1 downto 0);
-    signal n_scaled : std_logic_vector(width-1 downto 0);
+    -- Define right-side width
+    signal x_reg_out, y_reg_out : std_logic_vector(rwidth-1 downto 0);
+    signal x_mux_out, y_mux_out, result_mux_out : std_logic_vector(rwidth-1 downto 0);
+    signal add2_out : std_logic_vector(rwidth-1 downto 0);
+    -- Define left-side width
+    signal i_reg_out, n_reg_out : std_logic_vector(lwidth-1 downto 0);
+    signal i_mux_out : std_logic_vector(lwidth-1 downto 0);
+    signal add1_out : std_logic_vector(lwidth-1 downto 0);
   -- Build input register and logic 
     begin
   
   -- Connecting components to impl fibonacci logic using registers,mux, adders and comparators
         I_MUX : entity work.mux
             generic map(
-                width => width
+                width => lwidth
             )
             port map(
                 input1 => add1_out,
-                input2 => std_logic_vector(to_unsigned(2, width)),
+                input2 => std_logic_vector(to_unsigned(2, lwidth)),
                 sel => i_sel,
                 output => i_mux_out
             );
     
         X_MUX : entity work.mux
             generic map(
-                width => width
+                width => rwidth
             )
             port map(
                 input1 => y_reg_out,
-                input2 => std_logic_vector(to_unsigned(0, width)),
+                input2 => std_logic_vector(to_unsigned(0, rwidth)),
                 sel => x_sel,
                 output => x_mux_out
             );
 
         Y_MUX : entity work.mux
             generic map(
-                width => width
+                width => rwidth
             )
             port map(
                 input1 => add2_out,
-                input2 => std_logic_vector(to_unsigned(1, width)),
+                input2 => std_logic_vector(to_unsigned(1, rwidth)),
                 sel => y_sel,
                 output => y_mux_out
             );
 
         RESULT_MUX : entity work.mux
             generic map(
-                width => width
+                width => rwidth
             )
             port map(
                 input1 => y_reg_out,
-                input2 => std_logic_vector(to_unsigned(0, width)),
+                input2 => std_logic_vector(to_unsigned(0, rwidth)),
                 sel => result_sel,
                 output => result
             );
@@ -98,7 +103,7 @@ architecture rtl of datapath is
 
         I_REG : entity work.reg
             generic map(
-                width => width
+                width => lwidth
             )
             port map(
                 clk => clk,
@@ -110,7 +115,7 @@ architecture rtl of datapath is
 
         X_REG : entity work.reg
             generic map(
-                width => width
+                width => rwidth
             )
             port map(
                 clk => clk,
@@ -122,7 +127,7 @@ architecture rtl of datapath is
 
         Y_REG : entity work.reg
             generic map(
-                width => width
+                width => rwidth
             )
             port map(
                 clk => clk,
@@ -134,12 +139,12 @@ architecture rtl of datapath is
 
         N_REG : entity work.reg
             generic map(
-                width => width
+                width => lwidth
             )
             port map(
                 clk => clk,
                 reset => rst,
-                d => (width-1-6 downto 0 => '0') & n,
+                d => n,
                 q => n_reg_out,
                 en => n_en
             );
@@ -148,17 +153,19 @@ architecture rtl of datapath is
 
         ADD1 : entity work.add
             generic map(
-                width => width
+                width => lwidth
             )
             port map(
-                in1 => std_logic_vector(to_unsigned(1, width)),
+                in1 => std_logic_vector(to_unsigned(1, lwidth)),
                 in2 => i_reg_out,
                 output => add1_out
             );
 
+        -- Right side adder
         ADD2 : entity work.add
             generic map(
-                width => width
+                -- Setting to rwidth 24 bits
+                width => rwidth
             )
             port map(
                 in1 => x_reg_out,
@@ -169,17 +176,17 @@ architecture rtl of datapath is
         -- COMPARATOR
         N_COMP : entity work.comparator
             generic map(
-                width => width
+                width => lwidth
             )
             port map(
                 a => n_reg_out,
-                b => std_logic_vector(to_unsigned(0, width)),
+                b => std_logic_vector(to_unsigned(0, lwidth)),
                 eq => n_eq_0
             );
         
         LE_COMP : entity work.comparator
             generic map(
-                width => width
+                width => lwidth
             )
             port map(
                 a => i_reg_out,
