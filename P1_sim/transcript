@@ -1,22 +1,272 @@
 # Compile of add.vhd was successful.
 # Compile of comparator.vhd was successful.
 # Compile of datapath.vhd failed with 24 errors.
+# Compile of DE10_LITE_Golden_Top.v was successful.
 # Compile of decode7seg.vhd was successful.
 # Compile of fib.vhd was successful.
 # Compile of fsm.vhd was successful.
+# Compile of fsm_tb.vhd failed with 20 errors.
 # Compile of mux.vhd was successful.
 # Compile of reg.vhd was successful.
 # Compile of top_level.vhd was successful.
-# 9 compiles, 1 failed with 24 errors.
-# Compile of datapath.vhd failed with 1 errors.
-# Compile of datapath.vhd failed with 1 errors.
+# 11 compiles, 2 failed with 44 errors.
 # Compile of add.vhd was successful.
 # Compile of comparator.vhd was successful.
 # Compile of datapath.vhd was successful.
+# Compile of DE10_LITE_Golden_Top.v was successful.
 # Compile of decode7seg.vhd was successful.
 # Compile of fib.vhd was successful.
 # Compile of fsm.vhd was successful.
+# Compile of fsm_tb.vhd failed with 6 errors.
 # Compile of mux.vhd was successful.
 # Compile of reg.vhd was successful.
 # Compile of top_level.vhd was successful.
-# 9 compiles, 0 failed with no errors.
+# 11 compiles, 1 failed with 6 errors.
+# Compile of add.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of DE10_LITE_Golden_Top.v was successful.
+# Compile of decode7seg.vhd was successful.
+# Compile of fib.vhd was successful.
+# Compile of fsm.vhd was successful.
+# Compile of fsm_tb.vhd failed with 4 errors.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of top_level.vhd was successful.
+# 11 compiles, 1 failed with 4 errors.
+# Compile of add.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of DE10_LITE_Golden_Top.v was successful.
+# Compile of decode7seg.vhd was successful.
+# Compile of fib.vhd was successful.
+# Compile of fsm.vhd was successful.
+# Compile of fsm_tb.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of top_level.vhd was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.fsm_tb
+# vsim -gui work.fsm_tb 
+# Start time: 02:36:02 on Mar 03,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+run
+vsim -gui work.fsm work.fsm_tb
+# End time: 02:49:14 on Mar 03,2024, Elapsed time: 0:13:12
+# Errors: 0, Warnings: 8
+# vsim -gui work.fsm work.fsm_tb 
+# Start time: 02:49:14 on Mar 03,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading work.fsm_tb(tb)
+# Load canceled
+run
+run
+run
+run
+run -continue
+run -all
+# Compile of fsm_tb.vhd was successful.
+add wave -position insertpoint library
+# ** UI-Msg: (vish-4014) No objects found matching 'library'.
+vsim -gui work.fsm_tb
+# End time: 02:50:46 on Mar 03,2024, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 2
+# vsim -gui work.fsm_tb 
+# Start time: 02:50:46 on Mar 03,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+# Compile of fsm_tb.vhd was successful.
+vsim -gui work.fsm_tb
+# End time: 02:56:02 on Mar 03,2024, Elapsed time: 0:05:16
+# Errors: 0, Warnings: 2
+# vsim -gui work.fsm_tb 
+# Start time: 02:56:02 on Mar 03,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+add wave -position insertpoint **
+add wave -position insertpoint **
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of fsm_tb.vhd was successful.
+vsim -gui work.fsm_tb
+# End time: 03:00:55 on Mar 03,2024, Elapsed time: 0:04:53
+# Errors: 0, Warnings: 2
+# vsim -gui work.fsm_tb 
+# Start time: 03:00:55 on Mar 03,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+add wave -position insertpoint sim:/fsm_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Break key hit
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of fsm_tb.vhd was successful.
+# Compile of fsm_tb.vhd was successful.
+vsim -gui work.fsm_tb
+# End time: 03:09:02 on Mar 03,2024, Elapsed time: 0:08:07
+# Errors: 0, Warnings: 3
+# vsim -gui work.fsm_tb 
+# Start time: 03:09:02 on Mar 03,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+add wave -position insertpoint sim:/fsm_tb/*
+run
+run
