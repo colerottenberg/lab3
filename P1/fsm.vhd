@@ -46,18 +46,33 @@ begin
         elsif (rising_edge(clk)) then
             done <= '0';
             i_sel <= '0';
-            i_en <= '1';
+            i_en <= '0';
             x_sel <= '0';
-            x_en <= '1';
+            x_en <= '0';
             y_sel <= '0';
-            y_en <= '1';
-            n_en <= '1';
+            y_en <= '0';
+            -- n_en <= '0';
             result_en <= '1';
             result_sel <= '0';
             
             case state is
                 when START =>
                     -- All to 0
+                    done <= '0';
+                    i_sel <= '0';
+                    i_en <= '0';
+
+                    x_sel <= '0';
+                    x_en <= '0';
+
+                    y_sel <= '0';
+                    y_en <= '0';
+
+                    n_en <= '0';
+
+                    result_en <= '0';
+                    result_sel <= '0';
+
                     if go = '1' then
                         state <= INIT;
                     else
@@ -68,15 +83,18 @@ begin
                 when INIT =>
                     -- Unable Done
                     done <= '0';
-                    i_sel <= '1';
-                    i_en <= '1';
-                    x_sel <= '1';
-                    x_en <= '1';
-                    y_en <= '1';
                     n_en <= '1';
                     if (n_eq_0 = '0') then
                         result_sel <= '0'; -- Select the result
-                        state <= BUFF_LE;
+                        i_sel <= '1'; -- i become 2
+                        i_en <= '1';
+
+                        x_sel <= '1'; -- X become 0
+                        x_en <= '1';
+
+                        y_sel <= '1'; -- Y become 1
+                        y_en <= '1';
+                        state <= CHECK_LE;
                     else
                         result_sel <= '1'; -- Select default 0 result if n = 0
                         state <= DONE_STATE;
@@ -90,6 +108,9 @@ begin
                     if (i_le_n = '1') then
                         state <= COMPUTE;
                     else
+                        x_en <= '0';
+                        y_en <= '0';
+                        i_en <= '0';
                         state <= DONE_STATE;
                     end if;
                 
@@ -98,18 +119,17 @@ begin
                     i_en <= '1'; -- Redundant
                     x_sel <= '0';
                     x_en <= '1'; -- Redundant
-
-                    state <= ADD;
-
-                when ADD =>
-                    -- Allows Clock Cycle so the addition of x and y can be done before y is loaded
                     y_sel <= '0';
                     y_en <= '1'; -- Redundant
 
-                    state <= BUFF_LE;
+                    state <= CHECK_LE;
+
+                when ADD =>
+                    -- Allows Clock Cycle so the addition of x and y can be done before y is loaded
+
+                    state <= CHECK_LE;
                 
                 when DONE_STATE =>
-                    result_sel <= '0'; -- DBG 
                     result_en <= '1'; -- Only enable the result... the init state handles which result to select
                     -- Need to prevent bad state loops because of race conditions
                     done <= '1';
@@ -117,10 +137,22 @@ begin
                         state <= DONE_STATE;
                     else
                         state <= RESTART;
+                        result_en <= '0';
                     end if;
                 when RESTART =>
-                    result_sel <= '0'; -- DBG 
-                    result_en <= '1'; -- Only enable the result... the init state handles which result to select
+                    i_sel <= '0';
+                    i_en <= '0';
+
+                    x_sel <= '0';
+                    x_en <= '0';
+
+                    y_sel <= '0';
+                    y_en <= '0';
+
+                    n_en <= '1';
+
+                    result_en <= '0';
+                    result_sel <= '0';
                     done <= '1';
                     -- Now we can restart the process if go is high
                     if go = '1' then

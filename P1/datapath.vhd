@@ -44,7 +44,7 @@ end datapath;
 
 architecture rtl of datapath is
     -- Define right-side width
-    signal x_reg_out, y_reg_out : std_logic_vector(rwidth-1 downto 0);
+    signal x_reg_out, y_reg_out, result_reg_out : std_logic_vector(rwidth-1 downto 0);
     signal x_mux_out, y_mux_out, result_mux_out : std_logic_vector(rwidth-1 downto 0);
     signal add2_out : std_logic_vector(rwidth-1 downto 0);
     -- Define left-side width
@@ -96,7 +96,7 @@ architecture rtl of datapath is
                 input1 => y_reg_out,
                 input2 => std_logic_vector(to_unsigned(0, rwidth)),
                 sel => result_sel,
-                output => result
+                output => result_mux_out
             );
 
         -- REGISTERS
@@ -147,6 +147,18 @@ architecture rtl of datapath is
                 d => n,
                 q => n_reg_out,
                 en => n_en
+            );
+
+        RESULT_REG : entity work.reg
+            generic map(
+                width => rwidth
+            )
+            port map(
+                clk => clk,
+                reset => rst,
+                d => result_mux_out,
+                q => result,
+                en => result_en
             );
 
         -- ADDERS

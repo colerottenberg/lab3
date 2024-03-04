@@ -1,56 +1,4 @@
-C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package MATH_REAL
--- Compiling entity fib_crv_tb
--- Compiling architecture crv of fib_crv_tb
--- Loading entity datapath
-** Error: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd(66): (vcom-1484) Unknown formal identifier "go".
-** Error: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd(69): (vcom-1484) Unknown formal identifier "done".
-** Note: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd(213): VHDL Compiler exiting
-
-} {11.0 13.0} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity fsm
--- Compiling architecture behavioral of fsm
-
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level_tb.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package NUMERIC_STD
--- Compiling entity top_level_tb
--- Compiling architecture tb of top_level_tb
--- Loading entity top_level
-** Warning: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level_tb.vhd(41): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 24 is not equal to right length 8).
-
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/comparator.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/comparator.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity comparator
--- Compiling architecture behavioral of comparator
-
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/decode7seg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/decode7seg.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity decode7seg
--- Compiling architecture rtl of decode7seg
-
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/mux.vhd
+C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/mux.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -60,38 +8,21 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity mux
 -- Compiling architecture rtl of mux
 
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package NUMERIC_STD
--- Compiling entity fsm_tb
--- Compiling architecture tb of fsm_tb
--- Loading entity fsm
-
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/DE10_LITE_Golden_Top.v {1 {vlog -work work -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/DE10_LITE_Golden_Top.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module DE10_LITE_Golden_Top
-
-Top level modules:
-	DE10_LITE_Golden_Top
-
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib_tb.vhd
+} {} {}} C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/stitt_tb.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/stitt_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
 -- Loading package MATH_REAL
--- Compiling entity fib_tb
--- Compiling architecture tb of fib_tb
+-- Compiling entity fib_crv_tb
+-- Compiling architecture crv of fib_crv_tb
 -- Loading entity datapath
--- Loading entity fsm
-** Warning: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib_tb.vhd(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/stitt_tb.vhd(66): (vcom-1484) Unknown formal identifier "go".
+** Error: C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/stitt_tb.vhd(69): (vcom-1484) Unknown formal identifier "done".
+** Note: C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/stitt_tb.vhd(213): VHDL Compiler exiting
 
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/reg.vhd
+} {11.0 13.0} {}} C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/reg.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -100,21 +31,28 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity reg
 -- Compiling architecture rtl of reg
 
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/datapath.vhd
+} {} {}} C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package NUMERIC_STD
+-- Compiling entity top_level_tb
+-- Compiling architecture tb of top_level_tb
+-- Loading entity top_level
+** Warning: C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level_tb.vhd(41): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 24 is not equal to right length 8).
+
+} {} {}} C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/comparator.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/comparator.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity datapath
--- Compiling architecture rtl of datapath
--- Loading package std_logic_arith
--- Loading entity mux
--- Loading entity reg
--- Loading entity add
--- Loading entity comparator
+-- Compiling entity comparator
+-- Compiling architecture behavioral of comparator
 
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib.vhd
+} {} {}} C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -123,7 +61,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity fib
 -- Compiling architecture fib_arch of fib
 
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/add.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/add.vhd
+} {} {}} C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/add.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/add.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -132,7 +70,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity add
 -- Compiling architecture arch of add
 
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd
+} {} {}} C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -143,5 +81,53 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading entity datapath
 -- Loading entity fsm
 -- Loading entity decode7seg
+
+} {} {}} C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/decode7seg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/decode7seg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decode7seg
+-- Compiling architecture rtl of decode7seg
+
+} {} {}} C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fsm_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fsm_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package NUMERIC_STD
+-- Compiling entity fsm_tb
+-- Compiling architecture tb of fsm_tb
+-- Loading entity fsm
+
+} {} {}} C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/DE10_LITE_Golden_Top.v {1 {vlog -work work -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/DE10_LITE_Golden_Top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DE10_LITE_Golden_Top
+
+Top level modules:
+	DE10_LITE_Golden_Top
+
+} {} {}} C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fsm.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fsm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fsm
+-- Compiling architecture behavioral of fsm
+
+} {} {}} C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity fib_tb
+-- Compiling architecture tb of fib_tb
+-- Loading entity datapath
+-- Loading entity fsm
+** Warning: C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib_tb.vhd(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 
 } {} {}}
