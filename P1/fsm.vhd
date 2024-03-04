@@ -58,11 +58,6 @@ begin
             case state is
                 when START =>
                     -- All to 0
-                    i_en <= '0';
-                    x_en <= '0';
-                    y_en <= '0';
-                    n_en <= '0';
-                    done <= '0';
                     if go = '1' then
                         state <= INIT;
                     else
@@ -81,11 +76,14 @@ begin
                     n_en <= '1';
                     if (n_eq_0 = '0') then
                         result_sel <= '0'; -- Select the result
-                        state <= CHECK_LE;
+                        state <= BUFF_LE;
                     else
                         result_sel <= '1'; -- Select default 0 result if n = 0
                         state <= DONE_STATE;
                     end if;
+
+                when BUFF_LE =>
+                    state <= CHECK_LE;
 
                 when CHECK_LE =>
                     -- Check if i <= n
@@ -110,9 +108,6 @@ begin
 
                     state <= BUFF_LE;
                 
-                when BUFF_LE =>
-                    state <= CHECK_LE;
-
                 when DONE_STATE =>
                     result_sel <= '0'; -- DBG 
                     result_en <= '1'; -- Only enable the result... the init state handles which result to select

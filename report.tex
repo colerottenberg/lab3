@@ -70,7 +70,7 @@ The design process started with analyzing the given pseudo code and diagram of c
 % - Define the outputs.
 % - Define the function of your system. 
 % This section should be 1-2 paragraphs long.
-The goal of the lab was to implement a working FSM to control the datapath implemented in lab 2. The control focused around enabling certain registers and select lines.
+The goal of the lab was to implement a working FSM to control the datapath implemented in lab 2. The control focused around enabling certain registers and select lines. The inputs used by the FSM include: clk, rst, go, n\_eq\_0, and i\_le\_n. The outputs of the FSM include: done, n\_en, result\_en, result\_sel, x\_en, x\_sel, y\_en, y\_sel, i\_en, and i\_sel. The function of the system is to control the datapath to calculate the Fibonacci Sequence. The FSM controls the enable and select lines of the registers and multiplexers in the datapath. The FSM also outputs the done signal when the computation is complete.
 
 \subsection*{Design}
 % Describe the design decisions you made.

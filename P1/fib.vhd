@@ -6,13 +6,13 @@ use ieee.numeric_std.all;
 
 entity fib is 
     generic (
-       width : positive := 8
+       width : positive := 6
     );
     port (
         clk, reset, go: in std_logic;
         n : in std_logic_vector(width-1 downto 0);
         done : out std_logic;
-        output : out std_logic_vector(width-1 downto 0)
+        output : out std_logic_vector(31 downto 0)
     );
 end entity;
 
@@ -63,7 +63,7 @@ begin
 				state <= S_LOOP_COND;
 					
 				when S_DONE =>
-				output <= y;
+				output <= "00000000000000000000000000" & y;
 				done <= '1';
 				if(go='0') then
 					state <= S_WAIT;

@@ -33,7 +33,7 @@ end entity fsm;
 
 architecture behavioral of fsm is
     -- Define the states
-    type state_type is (START, INIT, COMPUTE, ADD, CHECK_LE, DONE_STATE, RESTART);
+    type state_type is (START, INIT, BUFF, COMPUTE, ADD, CHECK_LE, DONE_STATE, RESTART);
     signal state, next_state:       state_type;
 
 begin
@@ -82,6 +82,11 @@ begin
                 y_en <= '1';
                 n_en <= '1';
                 next_state <= CHECK_LE;
+            
+            when BUFF =>
+                -- Buffer state to allow n to loaded and compared
+                n_en <= '1';
+                next_state <= CHECK_LE;
 
             when CHECK_LE =>
                 -- Check if i <= n
@@ -104,7 +109,7 @@ begin
                 y_sel <= '0';
                 y_en <= '1'; -- Redundant
 
-                next_state <= CHECK_LE;
+                next_state <= BUFF;
             when DONE_STATE =>
                 result_sel <= '0'; -- DBG 
                 result_en <= '1'; -- Only enable the result... the init state handles which result to select

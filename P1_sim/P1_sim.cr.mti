@@ -1,4 +1,27 @@
-C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level_tb.vhd
+C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity fib_crv_tb
+-- Compiling architecture crv of fib_crv_tb
+-- Loading entity datapath
+** Error: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd(66): (vcom-1484) Unknown formal identifier "go".
+** Error: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd(69): (vcom-1484) Unknown formal identifier "done".
+** Note: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd(213): VHDL Compiler exiting
+
+} {11.0 13.0} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fsm
+-- Compiling architecture behavioral of fsm
+
+} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -55,6 +78,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	DE10_LITE_Golden_Top
 
+} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity fib_tb
+-- Compiling architecture tb of fib_tb
+-- Loading entity datapath
+-- Loading entity fsm
+** Warning: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib_tb.vhd(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
 } {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/reg.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -78,15 +114,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading entity add
 -- Loading entity comparator
 
-} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/add.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/add.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity add
--- Compiling architecture arch of add
-
 } {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -95,6 +122,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity fib
 -- Compiling architecture fib_arch of fib
+
+} {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/add.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/add.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity add
+-- Compiling architecture arch of add
 
 } {} {}} C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
