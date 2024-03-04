@@ -65,13 +65,12 @@ begin
   process
   begin
     -- Reset
-    rst <= '1';
-    wait until rising_edge(clk);
-    rst <= '0';
+    wait for 10 ns;
     -- Start the FSM
     go <= '1';
     i_le_n <= '1';
-    wait for 10 ns;
+    n_eq_0 <= '0';
+    wait for 30 ns;
     go <= '0';
 
 

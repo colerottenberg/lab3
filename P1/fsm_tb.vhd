@@ -69,16 +69,16 @@ begin
     wait until rising_edge(clk);
     rst <= '0';
     -- Start the FSM
+    wait for 10 ns;
     go <= '1';
     i_le_n <= '1';
     wait for 10 ns;
-    go <= '0';
 
-
-    wait for 50 ns;
+    wait for 100 ns;
     i_le_n <= '0';
 
-
+    wait for 20 ns;
+    go <= '0';
     -- Wait for the FSM to finish
     wait until done = '1'; 
 

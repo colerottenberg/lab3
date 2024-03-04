@@ -41,7 +41,7 @@ begin
     process(clk, rst)
     begin
         if rst = '1' then
-            state <= IDLE; -- Reset state
+            state <= START; -- Reset state
         elsif rising_edge(clk) then
             state <= next_state; -- Update state
         end if;
@@ -49,9 +49,9 @@ begin
     end process;
 
     -- Logic for state transitions
-    process(state, go, i_le_n)
+    process(state)
     begin
-        -- Default values
+        -- Default values to prevent latches
         -- State transitions
         next_state <= state;
         case state is
@@ -62,7 +62,8 @@ begin
                 x_en <= '0';
                 y_en <= '0';
                 n_en <= '0';
-                done <= 0;
+                done <= '0';
+
                 if go = '1' then
                     next_state <= INIT;
                 else
@@ -80,13 +81,7 @@ begin
                 y_sel <= '1';
                 y_en <= '1';
                 n_en <= '1';
-                if (n_eq_0 = '0') then
-                    result_sel <= '0'; -- Select the result
-                    next_state <= CHECK_LE;
-                else
-                    result_sel <= '1'; -- Select default 0 result if n = 0
-                    next_state <= DONE_STATE;
-                end if;
+                next_state <= CHECK_LE;
 
             when CHECK_LE =>
                 -- Check if i <= n
@@ -111,6 +106,7 @@ begin
 
                 next_state <= CHECK_LE;
             when DONE_STATE =>
+                result_sel <= '0'; -- DBG 
                 result_en <= '1'; -- Only enable the result... the init state handles which result to select
                 -- Need to prevent bad state loops because of race conditions
                 done <= '1';
@@ -120,6 +116,8 @@ begin
                     next_state <= RESTART;
                 end if;
             when RESTART =>
+                result_sel <= '0'; -- DBG 
+                result_en <= '1'; -- Only enable the result... the init state handles which result to select
                 done <= '1';
                 -- Now we can restart the process if go is high
                 if go = '1' then

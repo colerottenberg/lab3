@@ -1,41 +1,5 @@
 # Compile of add.vhd was successful.
 # Compile of comparator.vhd was successful.
-# Compile of datapath.vhd failed with 24 errors.
-# Compile of DE10_LITE_Golden_Top.v was successful.
-# Compile of decode7seg.vhd was successful.
-# Compile of fib.vhd was successful.
-# Compile of fsm.vhd was successful.
-# Compile of fsm_tb.vhd failed with 20 errors.
-# Compile of mux.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of top_level.vhd was successful.
-# 11 compiles, 2 failed with 44 errors.
-# Compile of add.vhd was successful.
-# Compile of comparator.vhd was successful.
-# Compile of datapath.vhd was successful.
-# Compile of DE10_LITE_Golden_Top.v was successful.
-# Compile of decode7seg.vhd was successful.
-# Compile of fib.vhd was successful.
-# Compile of fsm.vhd was successful.
-# Compile of fsm_tb.vhd failed with 6 errors.
-# Compile of mux.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of top_level.vhd was successful.
-# 11 compiles, 1 failed with 6 errors.
-# Compile of add.vhd was successful.
-# Compile of comparator.vhd was successful.
-# Compile of datapath.vhd was successful.
-# Compile of DE10_LITE_Golden_Top.v was successful.
-# Compile of decode7seg.vhd was successful.
-# Compile of fib.vhd was successful.
-# Compile of fsm.vhd was successful.
-# Compile of fsm_tb.vhd failed with 4 errors.
-# Compile of mux.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of top_level.vhd was successful.
-# 11 compiles, 1 failed with 4 errors.
-# Compile of add.vhd was successful.
-# Compile of comparator.vhd was successful.
 # Compile of datapath.vhd was successful.
 # Compile of DE10_LITE_Golden_Top.v was successful.
 # Compile of decode7seg.vhd was successful.
@@ -45,185 +9,11 @@
 # Compile of mux.vhd was successful.
 # Compile of reg.vhd was successful.
 # Compile of top_level.vhd was successful.
-# 11 compiles, 0 failed with no errors.
+# Compile of top_level_tb.vhd was successful with warnings.
+# 12 compiles, 0 failed with no errors.
 vsim -gui work.fsm_tb
 # vsim -gui work.fsm_tb 
-# Start time: 02:36:02 on Mar 03,2024
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.numeric_std(body)
-# Loading work.fsm_tb(tb)
-# Loading work.fsm(behavioral)
-run
-vsim -gui work.fsm work.fsm_tb
-# End time: 02:49:14 on Mar 03,2024, Elapsed time: 0:13:12
-# Errors: 0, Warnings: 8
-# vsim -gui work.fsm work.fsm_tb 
-# Start time: 02:49:14 on Mar 03,2024
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.fsm(behavioral)
-# Loading ieee.std_logic_arith(body)
-# Loading work.fsm_tb(tb)
-# Load canceled
-run
-run
-run
-run
-run -continue
-run -all
-# Compile of fsm_tb.vhd was successful.
-add wave -position insertpoint library
-# ** UI-Msg: (vish-4014) No objects found matching 'library'.
-vsim -gui work.fsm_tb
-# End time: 02:50:46 on Mar 03,2024, Elapsed time: 0:01:32
-# Errors: 0, Warnings: 2
-# vsim -gui work.fsm_tb 
-# Start time: 02:50:46 on Mar 03,2024
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.numeric_std(body)
-# Loading work.fsm_tb(tb)
-# Loading work.fsm(behavioral)
-# Compile of fsm_tb.vhd was successful.
-vsim -gui work.fsm_tb
-# End time: 02:56:02 on Mar 03,2024, Elapsed time: 0:05:16
-# Errors: 0, Warnings: 2
-# vsim -gui work.fsm_tb 
-# Start time: 02:56:02 on Mar 03,2024
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.numeric_std(body)
-# Loading work.fsm_tb(tb)
-# Loading work.fsm(behavioral)
-add wave -position insertpoint **
-add wave -position insertpoint **
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# Compile of fsm_tb.vhd was successful.
-vsim -gui work.fsm_tb
-# End time: 03:00:55 on Mar 03,2024, Elapsed time: 0:04:53
-# Errors: 0, Warnings: 2
-# vsim -gui work.fsm_tb 
-# Start time: 03:00:55 on Mar 03,2024
+# Start time: 22:52:34 on Mar 03,2024
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -237,29 +27,12 @@ run
 run
 run
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# Break key hit
-run -all
-# Break key hit
-# Simulation stop requested.
-# Compile of fsm_tb.vhd was successful.
-# Compile of fsm_tb.vhd was successful.
+# Compile of fsm.vhd was successful.
 vsim -gui work.fsm_tb
-# End time: 03:09:02 on Mar 03,2024, Elapsed time: 0:08:07
+# End time: 22:55:29 on Mar 03,2024, Elapsed time: 0:02:55
 # Errors: 0, Warnings: 3
 # vsim -gui work.fsm_tb 
-# Start time: 03:09:02 on Mar 03,2024
+# Start time: 22:55:29 on Mar 03,2024
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -270,19 +43,95 @@ vsim -gui work.fsm_tb
 add wave -position insertpoint sim:/fsm_tb/*
 run
 run
-step
 run
 run
 run
 run
 run
-run
-# Compile of fsm_tb.vhd was successful.
+# Compile of fsm.vhd was successful.
 vsim -gui work.fsm_tb
-# End time: 03:21:05 on Mar 03,2024, Elapsed time: 0:12:03
+# End time: 22:56:58 on Mar 03,2024, Elapsed time: 0:01:29
 # Errors: 0, Warnings: 2
 # vsim -gui work.fsm_tb 
-# Start time: 03:21:05 on Mar 03,2024
+# Start time: 22:56:58 on Mar 03,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+add wave -position insertpoint sim:/fsm_tb/*
+run
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 5 ns ###############
+#       Signal: /fsm_tb/UUT/next_state @ sub-iteration 0 at Value Z (C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd:37)
+#   Active process: /fsm_tb/UUT/line__41 @ sub-iteration 1
+#     Source: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd:58
+#       Signal: /fsm_tb/UUT/state @ sub-iteration 2 at Value Z (C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd:37)
+#   Active process: /fsm_tb/UUT/line__52 @ sub-iteration 3
+#     Source: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd:58
+#       Signal: /fsm_tb/UUT/next_state @ sub-iteration 4 at Value X (C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd:37)
+#   Active process: /fsm_tb/UUT/line__41 @ sub-iteration 5
+#     Source: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd:58
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
+# Compile of fsm_tb.vhd was successful.
+vsim -gui work.fsm_tb
+# End time: 23:02:38 on Mar 03,2024, Elapsed time: 0:05:40
+# Errors: 10, Warnings: 2
+# vsim -gui work.fsm_tb 
+# Start time: 23:02:38 on Mar 03,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+add wave -position insertpoint sim:/fsm_tb/*
+run
+run
+run
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 15 ns ###############
+#       Signal: /fsm_tb/UUT/next_state @ sub-iteration 0 at Value Z (C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd:37)
+#   Active process: /fsm_tb/UUT/line__41 @ sub-iteration 1
+#     Source: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd:58
+#       Signal: /fsm_tb/UUT/state @ sub-iteration 2 at Value Z (C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd:37)
+#   Active process: /fsm_tb/UUT/line__52 @ sub-iteration 3
+#     Source: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd:58
+#       Signal: /fsm_tb/UUT/next_state @ sub-iteration 4 at Value X (C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd:37)
+#   Active process: /fsm_tb/UUT/line__41 @ sub-iteration 5
+#     Source: C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd:58
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 15 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 15 ns.
+# Compile of fsm.vhd was successful.
+vsim -gui work.fsm_tb
+# End time: 23:25:16 on Mar 03,2024, Elapsed time: 0:22:38
+# Errors: 2, Warnings: 2
+# vsim -gui work.fsm_tb 
+# Start time: 23:25:16 on Mar 03,2024
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -319,189 +168,6 @@ run
 run
 run
 run
-# Compile of add.vhd was successful.
-# Compile of comparator.vhd was successful.
-# Compile of datapath.vhd was successful.
-# Compile of DE10_LITE_Golden_Top.v was successful.
-# Compile of decode7seg.vhd was successful.
-# Compile of fib.vhd was successful.
-# Compile of fsm.vhd was successful.
-# Compile of fsm_tb.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of top_level.vhd failed with 1 errors.
-# 11 compiles, 1 failed with 1 error.
-# Compile of top_level.vhd was successful.
-# Compile of top_level_tb.vhd was successful with warnings.
-vsim -gui work.top_level_tb
-# End time: 04:06:21 on Mar 03,2024, Elapsed time: 0:45:16
-# Errors: 0, Warnings: 5
-# vsim -gui work.top_level_tb 
-# Start time: 04:06:21 on Mar 03,2024
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.numeric_std(body)
-# Loading work.top_level_tb(tb)
-# Loading work.top_level(default)
-# Loading work.datapath(rtl)
-# Loading work.mux(rtl)
-# Loading work.reg(rtl)
-# Loading work.add(arch)
-# Loading work.comparator(behavioral)
-# Loading work.fsm(behavioral)
-# Loading work.decode7seg(rtl)
-add wave -position insertpoint sim:/top_level_tb/*
-run
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run -all
-# Compile of top_level_tb.vhd was successful with warnings.
-# Break key hit
-vsim -gui work.top_level_tb
-# End time: 04:09:09 on Mar 03,2024, Elapsed time: 0:02:48
-# Errors: 0, Warnings: 6
-# vsim -gui work.top_level_tb 
-# Start time: 04:09:09 on Mar 03,2024
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.numeric_std(body)
-# Loading work.top_level_tb(tb)
-# Loading work.top_level(default)
-# Loading work.datapath(rtl)
-# Loading work.mux(rtl)
-# Loading work.reg(rtl)
-# Loading work.add(arch)
-# Loading work.comparator(behavioral)
-# Loading work.fsm(behavioral)
-# Loading work.decode7seg(rtl)
-add wave -position insertpoint sim:/top_level_tb/*
-run
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run -all
-# Break key hit
-# Simulation stop requested.
-# Compile of add.vhd was successful.
-# Compile of comparator.vhd was successful.
-# Compile of datapath.vhd was successful.
-# Compile of DE10_LITE_Golden_Top.v was successful.
-# Compile of decode7seg.vhd was successful.
-# Compile of fib.vhd was successful.
-# Compile of fsm.vhd was successful.
-# Compile of fsm_tb.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of top_level_tb.vhd failed with 1 errors.
-# 12 compiles, 1 failed with 1 error.
-# Compile of top_level_tb.vhd failed with 2 errors.
-# Compile of top_level_tb.vhd was successful with warnings.
-vsim -gui work.top_level_tb
-# End time: 04:21:07 on Mar 03,2024, Elapsed time: 0:11:58
-# Errors: 0, Warnings: 8
-# vsim -gui work.top_level_tb 
-# Start time: 04:21:07 on Mar 03,2024
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.numeric_std(body)
-# Loading work.top_level_tb(tb)
-# Loading work.top_level(default)
-# Loading work.datapath(rtl)
-# Loading work.mux(rtl)
-# Loading work.reg(rtl)
-# Loading work.add(arch)
-# Loading work.comparator(behavioral)
-# Loading work.fsm(behavioral)
-# Loading work.decode7seg(rtl)
-add wave -position insertpoint sim:/top_level_tb/*
-run
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run -all
-# Break key hit
-# Break in Process line__20 at C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/reg.vhd line 20
-step -out
-step -over
-step -over
-# Compile of top_level_tb.vhd was successful with warnings.
-# Compile of top_level_tb.vhd was successful with warnings.
 # Compile of add.vhd was successful.
 # Compile of comparator.vhd was successful.
 # Compile of datapath.vhd was successful.
@@ -515,103 +181,233 @@ step -over
 # Compile of top_level.vhd was successful.
 # Compile of top_level_tb.vhd was successful with warnings.
 # 12 compiles, 0 failed with no errors.
-vsim -gui work.top_level_tb
-# End time: 00:00:14 on Mar 03,2024, Elapsed time: -4:-20:-53
-# Errors: 0, Warnings: 8
-# vsim -gui work.top_level_tb 
-# Start time: 00:00:14 on Mar 03,2024
+vsim -gui work.fsm_tb
+# End time: 00:13:32 on Mar 04,2024, Elapsed time: 0:48:16
+# Errors: 0, Warnings: 2
+# vsim -gui work.fsm_tb 
+# Start time: 00:13:32 on Mar 04,2024
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading ieee.numeric_std(body)
-# Loading work.top_level_tb(tb)
-# Loading work.top_level(default)
-# Loading work.datapath(rtl)
-# Loading work.mux(rtl)
-# Loading work.reg(rtl)
-# Loading work.add(arch)
-# Loading work.comparator(behavioral)
+# Loading work.fsm_tb(tb)
 # Loading work.fsm(behavioral)
-# Loading work.decode7seg(rtl)
-add wave -position insertpoint sim:/top_level_tb/*
-run
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# Compile of top_level_tb.vhd was successful with warnings.
-vsim -gui work.top_level_tb
-# End time: 00:01:18 on Mar 03,2024, Elapsed time: 0:01:04
-# Errors: 0, Warnings: 6
-# vsim -gui work.top_level_tb 
-# Start time: 00:01:18 on Mar 03,2024
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.numeric_std(body)
-# Loading work.top_level_tb(tb)
-# Loading work.top_level(default)
-# Loading work.datapath(rtl)
-# Loading work.mux(rtl)
-# Loading work.reg(rtl)
-# Loading work.add(arch)
-# Loading work.comparator(behavioral)
-# Loading work.fsm(behavioral)
-# Loading work.decode7seg(rtl)
-add wave -position insertpoint sim:/top_level_tb/*
-run
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /top_level_tb/UUT/DATAPATH/N_COMP
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
+add wave -position insertpoint sim:/fsm_tb/*
 run
 run
 run
 run
 run -all
-# End time: 00:30:21 on Mar 03,2024, Elapsed time: 0:29:03
-# Errors: 0, Warnings: 5
+# Break key hit
+# Break in Process line__42 at C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd line 42
+add wave -position insertpoint sim:/fsm_tb/*
+run
+run
+run
+run
+run
+run
+run
+vsim -gui work.fsm_tb
+# End time: 00:15:18 on Mar 04,2024, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 1
+# vsim -gui work.fsm_tb 
+# Start time: 00:15:18 on Mar 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+add wave -position insertpoint sim:/fsm_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of fsm.vhd was successful.
+vsim -gui work.fsm_tb
+# End time: 00:36:36 on Mar 04,2024, Elapsed time: 0:21:18
+# Errors: 0, Warnings: 2
+# vsim -gui work.fsm_tb 
+# Start time: 00:36:36 on Mar 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+add wave -position insertpoint sim:/fsm_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of fsm.vhd was successful.
+vsim -gui work.fsm_tb
+# End time: 00:44:27 on Mar 04,2024, Elapsed time: 0:07:51
+# Errors: 0, Warnings: 2
+# vsim -gui work.fsm_tb 
+# Start time: 00:44:27 on Mar 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+add wave -position insertpoint sim:/fsm_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of fsm.vhd was successful.
+vsim -gui work.fsm_tb
+# End time: 00:46:37 on Mar 04,2024, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 2
+# vsim -gui work.fsm_tb 
+# Start time: 00:46:37 on Mar 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+add wave -position insertpoint sim:/fsm_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
