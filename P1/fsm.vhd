@@ -41,20 +41,7 @@ begin
         if (rst = '1') then
             done <= '0';
             state <= START;
-        -- Default values
-        -- State transitions
         elsif (rising_edge(clk)) then
-            done <= '0';
-            i_sel <= '0';
-            i_en <= '0';
-            x_sel <= '0';
-            x_en <= '0';
-            y_sel <= '0';
-            y_en <= '0';
-            -- n_en <= '0';
-            result_en <= '1';
-            result_sel <= '0';
-            
             case state is
                 when START =>
                     -- All to 0
@@ -82,8 +69,6 @@ begin
 
                 when INIT =>
                     -- Unable Done
-                    done <= '0';
-                    n_en <= '1';
                     if (n_eq_0 = '0') then
                         result_sel <= '0'; -- Select the result
                         i_sel <= '1'; -- i become 2
@@ -108,9 +93,6 @@ begin
                     if (i_le_n = '1') then
                         state <= COMPUTE;
                     else
-                        x_en <= '0';
-                        y_en <= '0';
-                        i_en <= '0';
                         state <= DONE_STATE;
                     end if;
                 
@@ -131,8 +113,8 @@ begin
                 
                 when DONE_STATE =>
                     result_en <= '1'; -- Only enable the result... the init state handles which result to select
-                    -- Need to prevent bad state loops because of race conditions
                     done <= '1';
+                    -- Need to prevent bad state loops because of race conditions
                     if go = '1' then
                         state <= DONE_STATE;
                     else
@@ -153,7 +135,7 @@ begin
 
                     result_en <= '0';
                     result_sel <= '0';
-                    done <= '1';
+                    done <= '0';
                     -- Now we can restart the process if go is high
                     if go = '1' then
                         state <= INIT;

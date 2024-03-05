@@ -44,7 +44,7 @@ end datapath;
 
 architecture rtl of datapath is
     -- Define right-side width
-    signal x_reg_out, y_reg_out, result_reg_out : std_logic_vector(rwidth-1 downto 0);
+    signal x_reg_out, y_reg_out: std_logic_vector(rwidth-1 downto 0);
     signal x_mux_out, y_mux_out, result_mux_out : std_logic_vector(rwidth-1 downto 0);
     signal add2_out : std_logic_vector(rwidth-1 downto 0);
     -- Define left-side width
