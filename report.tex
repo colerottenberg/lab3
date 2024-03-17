@@ -81,11 +81,15 @@ The goal of the lab was to implement a working FSM to control the datapath imple
 % Any designs made in prelab should be included here but more briefly.
 % This section should be 1-2 paragraphs long.
 
+The design of the FSM was based on the state diagram shown in figure \ref{fig:state-diagram}. The FSM was implemented in VHDL and was designed to control the datapath of the Fibonacci Sequence. The FSM was designed to control the enable and select lines of the registers and multiplexers in the datapath. The FSM was also designed to output the done signal when the computation is complete. The FSM was implemented in both a one process and two process design. The one process FSM was implemented to control the datapath as expected. 
+
 \subsection*{Implementation}
 % Describe the implementation process.
 % Code segments or block diagrams may be included here.
 % What time did you need to complete your design?
 % This section should be 1-2 paragraphs long.
+
+THe implementation took a much longer time than expected. For both the one process and two process FSMs, the implementation used similar states and internal signals however, the overall expectation of state and signal changes was different. As seen in the code, the one process FSM used a clock and reset signal to control the state changes. The two process FSM used the state and input signals to control the state changes, however the state changes were iterated by a clock signal. The implementation of the FSM took much longer than expected. 
 
 \subsection*{Testing}
 % Describe how you tested your design.
@@ -98,6 +102,8 @@ The testing of the design was done by first simulating the FSM in ModelSim. The 
 \subsection*{Conclusions}
 % Summarize in one paragraph, the work you did, the success and problems you encountered, and how to improve next in the future.
 % This section should only be 1 paragraph long.
+
+The direction and control of the FSM was eventually successful, however the implementation and testing of the FSM took an extensive amount of time. The overall testing and work to develop the FSM took much longer than expected. We were able to produce a proper fibonacci output after hours and hours of testing and implementation. Both the one process and two process FSMs were implemented and tested. The one process FSM was able to control the datapath as expected. The two process FSM was also able to control the datapath as expected.
 
 \section*{Appendix}
 % Include all postlab code, screenshots, and simulations here. ALL SIMULATIONS MUST BE ANNOTATED. This means pointing out particularly important parts of a simulation. This can be done with arrows or textboxes. All figures must be captioned. Code should be commented a fair amount.
