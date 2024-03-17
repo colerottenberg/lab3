@@ -48,7 +48,6 @@
 \subsection*{Prelab Questions}
 % Put all the answers to the prelab questions. These may be scanned using your phone or scanner. Not all prelabs have prelab questions
 \textbf{Highlighting the key differences between a one process and two process FSM.}
-
 The major difference between a one process and two process FSM is the flow of states and the logic that controls when a state change occurs. In a one process FSM, our sensitivity list contains a \textbf{clk and rst} signal. This means that the state machine will only change states when the clock signal changes. In a two process FSM, our sensitivity list contains the \textbf{state and input(s)} signals. This means that the state machine will change states when the state or input signals change. However, the state change in a two process FSM is iterated by a clock signal. This means that the state machine will only change states when the clock signal changes. This adds a layer of abstraction to the state machine, allowing for more complex state machines to be designed.
 
 \subsection*{Prelab Design and Implementation}
@@ -266,7 +265,7 @@ end architecture behavioral;
 
 % Two Process FSM VHDL Code
 \begin{lstlisting}[caption=Two Process FSM VHDL Code, label=lst:two-process-fsm-vhdl-code]
-  library ieee;
+library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
@@ -301,8 +300,8 @@ end entity fsm;
 
 architecture behavioral of fsm is
     -- Define the states
-    type state_type is (START, INIT, COMPUTE, ADD, CHECK_LE, DONE_STATE, RESTART);
-    signal state, next_state:       state_type;
+    type state_type is (START, INIT, BUFF, COMPUTE, ADD, CHECK_LE, DONE_STATE, RESTART);
+    signal state, next_state:       state_type := START;
 
 begin
     -- Logic for clock and reset 
@@ -317,11 +316,10 @@ begin
     end process;
 
     -- Logic for state transitions
-    process(state)
+    process(state, go)
     begin
         -- Default values to prevent latches
         -- State transitions
-        next_state <= state;
         case state is
 
             when START =>
@@ -349,6 +347,12 @@ begin
                 y_sel <= '1';
                 y_en <= '1';
                 n_en <= '1';
+                result_en <= '0';
+                next_state <= CHECK_LE;
+            
+            when BUFF =>
+                -- Buffer state to allow n to loaded and compared
+                n_en <= '1';
                 next_state <= CHECK_LE;
 
             when CHECK_LE =>
@@ -372,7 +376,7 @@ begin
                 y_sel <= '0';
                 y_en <= '1'; -- Redundant
 
-                next_state <= CHECK_LE;
+                next_state <= BUFF;
             when DONE_STATE =>
                 result_sel <= '0'; -- DBG 
                 result_en <= '1'; -- Only enable the result... the init state handles which result to select
@@ -385,8 +389,12 @@ begin
                 end if;
             when RESTART =>
                 result_sel <= '0'; -- DBG 
-                result_en <= '1'; -- Only enable the result... the init state handles which result to select
-                done <= '1';
+                result_en <= '0'; -- Only enable the result... the init state handles which result to select
+                i_en <= '0';
+                x_en <= '0';
+                y_en <= '0';
+                n_en <= '0';
+                done <= '0';
                 -- Now we can restart the process if go is high
                 if go = '1' then
                     next_state <= INIT;
