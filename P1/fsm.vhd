@@ -84,18 +84,18 @@ begin
                 when INIT =>
                     if (n_eq_0 = '0') then
                         result_sel <= '0'; -- Select the result
-                        i_sel <= '1'; -- i become 2
+                        i_sel <= '1'; -- i become 2... beginning of loop
                         i_en <= '1';
 
-                        x_sel <= '1'; -- X become 0
+                        x_sel <= '1'; -- X become 0... starting value
                         x_en <= '1';
 
-                        y_sel <= '1'; -- Y become 1
+                        y_sel <= '1'; -- Y become 1... starting value
                         y_en <= '1';
                         state <= CHECK_LE;
                     else
                         result_sel <= '1'; -- Select default 0 result if n = 0
-						result_en <= '1';
+						result_en <= '1'; -- Enable for DONE_STATE
                         state <= DONE_STATE;
                     end if;
 
