@@ -34,7 +34,7 @@ end entity fsm;
 architecture behavioral of fsm is
     -- Define the states
     type state_type is (START, INIT, BUFF, COMPUTE, ADD, CHECK_LE, DONE_STATE, RESTART);
-    signal state, next_state:       state_type;
+    signal state, next_state:       state_type := START;
 
 begin
     -- Logic for clock and reset 
@@ -49,11 +49,10 @@ begin
     end process;
 
     -- Logic for state transitions
-    process(state)
+    process(state, go)
     begin
         -- Default values to prevent latches
         -- State transitions
-        next_state <= state;
         case state is
 
             when START =>
@@ -81,6 +80,7 @@ begin
                 y_sel <= '1';
                 y_en <= '1';
                 n_en <= '1';
+                result_en <= '0';
                 next_state <= CHECK_LE;
             
             when BUFF =>
@@ -122,8 +122,12 @@ begin
                 end if;
             when RESTART =>
                 result_sel <= '0'; -- DBG 
-                result_en <= '1'; -- Only enable the result... the init state handles which result to select
-                done <= '1';
+                result_en <= '0'; -- Only enable the result... the init state handles which result to select
+                i_en <= '0';
+                x_en <= '0';
+                y_en <= '0';
+                n_en <= '0';
+                done <= '0';
                 -- Now we can restart the process if go is high
                 if go = '1' then
                     next_state <= INIT;

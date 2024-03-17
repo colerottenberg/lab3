@@ -1,6 +1,4 @@
 # 0 compiles, 14 failed with no errors.
-# Error opening C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/datapath.vhd
-# Path name 'C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/datapath.vhd' doesn't exist.
 # Compile of add.vhd was successful.
 # Compile of comparator.vhd was successful.
 # Compile of datapath.vhd was successful.
@@ -12,13 +10,13 @@
 # Compile of fsm_tb.vhd was successful.
 # Compile of mux.vhd was successful.
 # Compile of reg.vhd was successful.
-# Compile of stitt_tb.vhd failed with 2 errors.
 # Compile of top_level.vhd was successful.
 # Compile of top_level_tb.vhd was successful with warnings.
-# 14 compiles, 1 failed with 2 errors.
+# 13 compiles, 0 failed with no errors.
+add wave -position insertpoint library
 vsim -gui work.fib_tb
 # vsim -gui work.fib_tb 
-# Start time: 02:56:48 on Mar 05,2024
+# Start time: 12:02:48 on Mar 05,2024
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -43,46 +41,48 @@ run -all
 #    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
 # ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
 #    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: incorrect result!Fib(3) is 2 but output was 3
-#    Time: 385 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(4) is 3 but output was 1
-#    Time: 435 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(5) is 5 but output was 8
-#    Time: 585 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(6) is 8 but output was 1
-#    Time: 635 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(7) is 13 but output was 21
-#    Time: 825 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(8) is 21 but output was 1
-#    Time: 875 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(9) is 34 but output was 55
-#    Time: 1105 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(10) is 55 but output was 1
-#    Time: 1155 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(11) is 89 but output was 144
-#    Time: 1425 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(12) is 144 but output was 1
-#    Time: 1475 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(13) is 233 but output was 377
-#    Time: 1785 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(14) is 377 but output was 1
-#    Time: 1835 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(15) is 610 but output was 987
-#    Time: 2185 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(16) is 987 but output was 1
-#    Time: 2235 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(17) is 1597 but output was 2584
-#    Time: 2625 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(18) is 2584 but output was 1
-#    Time: 2675 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(19) is 4181 but output was 6765
-#    Time: 3105 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(20) is 6765 but output was 1
-#    Time: 3155 ns  Iteration: 0  Instance: /fib_tb
-# Break key hit
-# Simulation stop requested.
-# Error opening C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib
-# Path name 'C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib' doesn't exist.
+# ** Warning: incorrect result!Fib(1) is 1 but output was 0
+#    Time: 225 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(2) is 1 but output was 0
+#    Time: 275 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(3) is 2 but output was 0
+#    Time: 365 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(4) is 3 but output was 0
+#    Time: 415 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(5) is 5 but output was 0
+#    Time: 525 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(6) is 8 but output was 0
+#    Time: 575 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(7) is 13 but output was 0
+#    Time: 705 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(8) is 21 but output was 0
+#    Time: 755 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(9) is 34 but output was 0
+#    Time: 905 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(10) is 55 but output was 0
+#    Time: 955 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(11) is 89 but output was 0
+#    Time: 1125 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(12) is 144 but output was 0
+#    Time: 1175 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(13) is 233 but output was 0
+#    Time: 1365 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(14) is 377 but output was 0
+#    Time: 1415 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(15) is 610 but output was 0
+#    Time: 1625 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(16) is 987 but output was 0
+#    Time: 1675 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(17) is 1597 but output was 0
+#    Time: 1905 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(18) is 2584 but output was 0
+#    Time: 1955 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(19) is 4181 but output was 0
+#    Time: 2205 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(20) is 6765 but output was 0
+#    Time: 2255 ns  Iteration: 0  Instance: /fib_tb
+# Error opening C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1_sim/incorrect result!Fib
+# Path name 'C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1_sim/incorrect result!Fib' doesn't exist.
 # Compile of add.vhd was successful.
 # Compile of comparator.vhd was successful.
 # Compile of datapath.vhd was successful.
@@ -94,10 +94,99 @@ run -all
 # Compile of fsm_tb.vhd was successful.
 # Compile of mux.vhd was successful.
 # Compile of reg.vhd was successful.
-# Compile of stitt_tb.vhd failed with 2 errors.
 # Compile of top_level.vhd was successful.
 # Compile of top_level_tb.vhd was successful with warnings.
-# 14 compiles, 1 failed with 2 errors.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.fib_tb(tb)
+# Loading work.datapath(rtl)
+# Loading work.mux(rtl)
+# Loading work.reg(rtl)
+# Loading work.add(arch)
+# Loading work.comparator(behavioral)
+# Loading work.fsm(behavioral)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
+# ** Warning: incorrect result!Fib(3) is 2 but output was 3
+#    Time: 365 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(4) is 3 but output was 1
+#    Time: 415 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(5) is 5 but output was 8
+#    Time: 525 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(6) is 8 but output was 1
+#    Time: 575 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(7) is 13 but output was 21
+#    Time: 705 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(8) is 21 but output was 1
+#    Time: 755 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(9) is 34 but output was 55
+#    Time: 905 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(10) is 55 but output was 1
+#    Time: 955 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(11) is 89 but output was 144
+#    Time: 1125 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(12) is 144 but output was 1
+#    Time: 1175 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(13) is 233 but output was 377
+#    Time: 1365 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(14) is 377 but output was 1
+#    Time: 1415 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(15) is 610 but output was 987
+#    Time: 1625 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(16) is 987 but output was 1
+#    Time: 1675 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(17) is 1597 but output was 2584
+#    Time: 1905 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(18) is 2584 but output was 1
+#    Time: 1955 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(19) is 4181 but output was 6765
+#    Time: 2205 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(20) is 6765 but output was 1
+#    Time: 2255 ns  Iteration: 0  Instance: /fib_tb
+# Break key hit
+# Simulation stop requested.
+# Error opening C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1_sim/incorrect result!Fib
+# Path name 'C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1_sim/incorrect result!Fib' doesn't exist.
+# Compile of add.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of DE10_LITE_Golden_Top.v was successful.
+# Compile of decode7seg.vhd was successful.
+# Compile of fib.vhd was successful.
+# Compile of fib_tb.vhd was successful with warnings.
+# Compile of fsm.vhd failed with 2 errors.
+# Compile of fsm_tb.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of top_level_tb.vhd was successful with warnings.
+# 13 compiles, 1 failed with 2 errors.
+restart
+# Compile of add.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of DE10_LITE_Golden_Top.v was successful.
+# Compile of decode7seg.vhd was successful.
+# Compile of fib.vhd was successful.
+# Compile of fib_tb.vhd was successful with warnings.
+# Compile of fsm.vhd was successful.
+# Compile of fsm_tb.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of top_level_tb.vhd was successful with warnings.
+# 13 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.fib_tb(tb)
@@ -120,630 +209,47 @@ run -all
 # ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
 #    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
 # ** Warning: incorrect result!Fib(1) is 1 but output was 0
-#    Time: 195 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(2) is 1 but output was 2
-#    Time: 285 ns  Iteration: 0  Instance: /fib_tb
+#    Time: 245 ns  Iteration: 0  Instance: /fib_tb
 # ** Warning: incorrect result!Fib(3) is 2 but output was 1
-#    Time: 335 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(4) is 3 but output was 5
-#    Time: 465 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(5) is 5 but output was 1
-#    Time: 515 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(6) is 8 but output was 13
-#    Time: 685 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(7) is 13 but output was 1
-#    Time: 735 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(8) is 21 but output was 34
-#    Time: 945 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(9) is 34 but output was 1
-#    Time: 995 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(10) is 55 but output was 89
+#    Time: 525 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(4) is 3 but output was 2
+#    Time: 725 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(5) is 5 but output was 3
+#    Time: 965 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(6) is 8 but output was 5
 #    Time: 1245 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(11) is 89 but output was 1
-#    Time: 1295 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(12) is 144 but output was 233
-#    Time: 1585 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(13) is 233 but output was 1
-#    Time: 1635 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(14) is 377 but output was 610
-#    Time: 1965 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(15) is 610 but output was 1
-#    Time: 2015 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(16) is 987 but output was 1597
-#    Time: 2385 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(17) is 1597 but output was 1
-#    Time: 2435 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(18) is 2584 but output was 4181
-#    Time: 2845 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(19) is 4181 but output was 1
-#    Time: 2895 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(20) is 6765 but output was 10946
-#    Time: 3345 ns  Iteration: 0  Instance: /fib_tb
-# Error opening C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib
-# Path name 'C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib' doesn't exist.
-# Compile of add.vhd was successful.
-# Compile of comparator.vhd was successful.
-# Compile of datapath.vhd was successful.
-# Compile of DE10_LITE_Golden_Top.v was successful.
-# Compile of decode7seg.vhd was successful.
-# Compile of fib.vhd was successful.
-# Compile of fib_tb.vhd was successful with warnings.
-# Compile of fsm.vhd was successful.
-# Compile of fsm_tb.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of stitt_tb.vhd failed with 2 errors.
-# Compile of top_level.vhd was successful.
-# Compile of top_level_tb.vhd was successful with warnings.
-# 14 compiles, 1 failed with 2 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.fib_tb(tb)
-# Loading work.datapath(rtl)
-# Loading work.mux(rtl)
-# Loading work.reg(rtl)
-# Loading work.add(arch)
-# Loading work.comparator(behavioral)
-# Loading work.fsm(behavioral)
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: incorrect result!Fib(3) is 2 but output was 3
-#    Time: 385 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(4) is 3 but output was 1
-#    Time: 435 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(5) is 5 but output was 8
-#    Time: 585 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(6) is 8 but output was 1
-#    Time: 635 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(7) is 13 but output was 21
-#    Time: 825 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(8) is 21 but output was 1
-#    Time: 875 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(9) is 34 but output was 55
-#    Time: 1105 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(10) is 55 but output was 1
-#    Time: 1155 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(11) is 89 but output was 144
-#    Time: 1425 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(12) is 144 but output was 1
-#    Time: 1475 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(13) is 233 but output was 377
-#    Time: 1785 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(14) is 377 but output was 1
-#    Time: 1835 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(15) is 610 but output was 987
-#    Time: 2185 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(16) is 987 but output was 1
-#    Time: 2235 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(17) is 1597 but output was 2584
-#    Time: 2625 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(18) is 2584 but output was 1
-#    Time: 2675 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(19) is 4181 but output was 6765
-#    Time: 3105 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(20) is 6765 but output was 1
-#    Time: 3155 ns  Iteration: 0  Instance: /fib_tb
-# Error opening C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib
-# Path name 'C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib' doesn't exist.
-# Compile of add.vhd was successful.
-# Compile of comparator.vhd was successful.
-# Compile of datapath.vhd was successful.
-# Compile of DE10_LITE_Golden_Top.v was successful.
-# Compile of decode7seg.vhd was successful.
-# Compile of fib.vhd was successful.
-# Compile of fib_tb.vhd was successful with warnings.
-# Compile of fsm.vhd was successful.
-# Compile of fsm_tb.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of stitt_tb.vhd failed with 2 errors.
-# Compile of top_level.vhd was successful.
-# Compile of top_level_tb.vhd was successful with warnings.
-# 14 compiles, 1 failed with 2 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.fib_tb(tb)
-# Loading work.datapath(rtl)
-# Loading work.mux(rtl)
-# Loading work.reg(rtl)
-# Loading work.add(arch)
-# Loading work.comparator(behavioral)
-# Loading work.fsm(behavioral)
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: incorrect result!Fib(3) is 2 but output was 3
-#    Time: 385 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(4) is 3 but output was 1
-#    Time: 435 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(5) is 5 but output was 8
-#    Time: 585 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(6) is 8 but output was 1
-#    Time: 635 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(7) is 13 but output was 21
-#    Time: 825 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(8) is 21 but output was 1
-#    Time: 875 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(9) is 34 but output was 55
-#    Time: 1105 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(10) is 55 but output was 1
-#    Time: 1155 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(11) is 89 but output was 144
-#    Time: 1425 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(12) is 144 but output was 1
-#    Time: 1475 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(13) is 233 but output was 377
-#    Time: 1785 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(14) is 377 but output was 1
-#    Time: 1835 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(15) is 610 but output was 987
-#    Time: 2185 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(16) is 987 but output was 1
-#    Time: 2235 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(17) is 1597 but output was 2584
-#    Time: 2625 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(18) is 2584 but output was 1
-#    Time: 2675 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(19) is 4181 but output was 6765
-#    Time: 3105 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(20) is 6765 but output was 1
-#    Time: 3155 ns  Iteration: 0  Instance: /fib_tb
-# Compile of add.vhd was successful.
-# Compile of comparator.vhd was successful.
-# Compile of datapath.vhd was successful.
-# Compile of DE10_LITE_Golden_Top.v was successful.
-# Compile of decode7seg.vhd was successful.
-# Compile of fib.vhd was successful.
-# Compile of fib_tb.vhd was successful with warnings.
-# Compile of fsm.vhd was successful.
-# Compile of fsm_tb.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of stitt_tb.vhd failed with 2 errors.
-# Compile of top_level.vhd was successful.
-# Compile of top_level_tb.vhd was successful with warnings.
-# 14 compiles, 1 failed with 2 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.fib_tb(tb)
-# Loading work.datapath(rtl)
-# Loading work.mux(rtl)
-# Loading work.reg(rtl)
-# Loading work.add(arch)
-# Loading work.comparator(behavioral)
-# Loading work.fsm(behavioral)
-# Warning in wave window restart: (vish-4014) No objects found matching '/fib_tb/DATAPATH/result_reg_out'. 
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: incorrect result!Fib(1) is 1 but output was 0
-#    Time: 225 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(2) is 1 but output was 0
-#    Time: 275 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(3) is 2 but output was 0
-#    Time: 365 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(4) is 3 but output was 0
-#    Time: 415 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(5) is 5 but output was 0
-#    Time: 525 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(6) is 8 but output was 0
-#    Time: 575 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(7) is 13 but output was 0
-#    Time: 705 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(8) is 21 but output was 0
-#    Time: 755 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(9) is 34 but output was 0
-#    Time: 905 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(10) is 55 but output was 0
-#    Time: 955 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(11) is 89 but output was 0
-#    Time: 1125 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(12) is 144 but output was 0
-#    Time: 1175 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(13) is 233 but output was 0
-#    Time: 1365 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(14) is 377 but output was 0
-#    Time: 1415 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(15) is 610 but output was 0
-#    Time: 1625 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(16) is 987 but output was 0
-#    Time: 1675 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(17) is 1597 but output was 0
-#    Time: 1905 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(18) is 2584 but output was 0
-#    Time: 1955 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(19) is 4181 but output was 0
-#    Time: 2205 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(20) is 6765 but output was 0
-#    Time: 2255 ns  Iteration: 0  Instance: /fib_tb
-# Error opening C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib
-# Path name 'C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib' doesn't exist.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Compile of add.vhd was successful.
-# Compile of comparator.vhd was successful.
-# Compile of datapath.vhd was successful.
-# Compile of DE10_LITE_Golden_Top.v was successful.
-# Compile of decode7seg.vhd was successful.
-# Compile of fib.vhd was successful.
-# Compile of fib_tb.vhd was successful with warnings.
-# Compile of fsm.vhd was successful.
-# Compile of fsm_tb.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of stitt_tb.vhd failed with 2 errors.
-# Compile of top_level.vhd was successful.
-# Compile of top_level_tb.vhd was successful with warnings.
-# 14 compiles, 1 failed with 2 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.fib_tb(tb)
-# Loading work.datapath(rtl)
-# Loading work.mux(rtl)
-# Loading work.reg(rtl)
-# Loading work.add(arch)
-# Loading work.comparator(behavioral)
-# Loading work.fsm(behavioral)
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: incorrect result!Fib(1) is 1 but output was 0
-#    Time: 225 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(2) is 1 but output was 0
-#    Time: 275 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(3) is 2 but output was 0
-#    Time: 365 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(4) is 3 but output was 0
-#    Time: 415 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(5) is 5 but output was 0
-#    Time: 525 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(6) is 8 but output was 0
-#    Time: 575 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(7) is 13 but output was 0
-#    Time: 705 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(8) is 21 but output was 0
-#    Time: 755 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(9) is 34 but output was 0
-#    Time: 905 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(10) is 55 but output was 0
-#    Time: 955 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(11) is 89 but output was 0
-#    Time: 1125 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(12) is 144 but output was 0
-#    Time: 1175 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(13) is 233 but output was 0
-#    Time: 1365 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(14) is 377 but output was 0
-#    Time: 1415 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(15) is 610 but output was 0
-#    Time: 1625 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(16) is 987 but output was 0
-#    Time: 1675 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(17) is 1597 but output was 0
-#    Time: 1905 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(18) is 2584 but output was 0
-#    Time: 1955 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(19) is 4181 but output was 0
-#    Time: 2205 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(20) is 6765 but output was 0
-#    Time: 2255 ns  Iteration: 0  Instance: /fib_tb
-# Error opening C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib
-# Path name 'C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib' doesn't exist.
-# Compile of add.vhd was successful.
-# Compile of comparator.vhd was successful.
-# Compile of datapath.vhd was successful.
-# Compile of DE10_LITE_Golden_Top.v was successful.
-# Compile of decode7seg.vhd was successful.
-# Compile of fib.vhd was successful.
-# Compile of fib_tb.vhd was successful with warnings.
-# Compile of fsm.vhd was successful.
-# Compile of fsm_tb.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of stitt_tb.vhd failed with 2 errors.
-# Compile of top_level.vhd was successful.
-# Compile of top_level_tb.vhd was successful with warnings.
-# 14 compiles, 1 failed with 2 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.fib_tb(tb)
-# Loading work.datapath(rtl)
-# Loading work.mux(rtl)
-# Loading work.reg(rtl)
-# Loading work.add(arch)
-# Loading work.comparator(behavioral)
-# Loading work.fsm(behavioral)
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Error: done never asserted.
-#    Time: 15125 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 30135 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(1) is 1 but output was 0
-#    Time: 30135 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 45145 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(2) is 1 but output was 0
-#    Time: 45145 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 60155 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(3) is 2 but output was 0
-#    Time: 60155 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 75165 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(4) is 3 but output was 0
-#    Time: 75165 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 90175 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(5) is 5 but output was 0
-#    Time: 90175 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 105185 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(6) is 8 but output was 0
-#    Time: 105185 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 120195 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(7) is 13 but output was 0
-#    Time: 120195 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 135205 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(8) is 21 but output was 0
-#    Time: 135205 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 150215 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(9) is 34 but output was 0
-#    Time: 150215 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 165225 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(10) is 55 but output was 0
-#    Time: 165225 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 180235 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(11) is 89 but output was 0
-#    Time: 180235 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 195245 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(12) is 144 but output was 0
-#    Time: 195245 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 210255 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(13) is 233 but output was 0
-#    Time: 210255 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 225265 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(14) is 377 but output was 0
-#    Time: 225265 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 240275 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(15) is 610 but output was 0
-#    Time: 240275 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 255285 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(16) is 987 but output was 0
-#    Time: 255285 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 270295 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(17) is 1597 but output was 0
-#    Time: 270295 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 285305 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(18) is 2584 but output was 0
-#    Time: 285305 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 300315 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(19) is 4181 but output was 0
-#    Time: 300315 ns  Iteration: 0  Instance: /fib_tb
-# ** Error: done never asserted.
-#    Time: 315325 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(20) is 6765 but output was 0
-#    Time: 315325 ns  Iteration: 0  Instance: /fib_tb
-# Error opening C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib
-# Path name 'C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib' doesn't exist.
-# Compile of add.vhd was successful.
-# Compile of comparator.vhd was successful.
-# Compile of datapath.vhd was successful.
-# Compile of DE10_LITE_Golden_Top.v was successful.
-# Compile of decode7seg.vhd was successful.
-# Compile of fib.vhd was successful.
-# Compile of fib_tb.vhd was successful with warnings.
-# Compile of fsm.vhd was successful.
-# Compile of fsm_tb.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of stitt_tb.vhd failed with 2 errors.
-# Compile of top_level.vhd was successful.
-# Compile of top_level_tb.vhd was successful with warnings.
-# 14 compiles, 1 failed with 2 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.fib_tb(tb)
-# Loading work.datapath(rtl)
-# Loading work.mux(rtl)
-# Loading work.reg(rtl)
-# Loading work.add(arch)
-# Loading work.comparator(behavioral)
-# Loading work.fsm(behavioral)
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: incorrect result!Fib(1) is 1 but output was 0
-#    Time: 195 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(2) is 1 but output was 0
-#    Time: 235 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(3) is 2 but output was 0
-#    Time: 275 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(4) is 3 but output was 0
-#    Time: 315 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(5) is 5 but output was 0
-#    Time: 355 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(6) is 8 but output was 0
-#    Time: 395 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(7) is 13 but output was 0
-#    Time: 435 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(8) is 21 but output was 0
-#    Time: 475 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(9) is 34 but output was 0
-#    Time: 515 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(10) is 55 but output was 0
-#    Time: 555 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(11) is 89 but output was 0
-#    Time: 595 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(12) is 144 but output was 0
-#    Time: 635 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(13) is 233 but output was 0
-#    Time: 675 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(14) is 377 but output was 0
-#    Time: 715 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(15) is 610 but output was 0
-#    Time: 755 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(16) is 987 but output was 0
-#    Time: 795 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(17) is 1597 but output was 0
-#    Time: 835 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(18) is 2584 but output was 0
-#    Time: 875 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(19) is 4181 but output was 0
-#    Time: 915 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(20) is 6765 but output was 0
-#    Time: 955 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(7) is 13 but output was 8
+#    Time: 1565 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(8) is 21 but output was 13
+#    Time: 1925 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(9) is 34 but output was 21
+#    Time: 2325 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(10) is 55 but output was 34
+#    Time: 2765 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(11) is 89 but output was 55
+#    Time: 3245 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(12) is 144 but output was 89
+#    Time: 3765 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(13) is 233 but output was 144
+#    Time: 4325 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(14) is 377 but output was 233
+#    Time: 4925 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(15) is 610 but output was 377
+#    Time: 5565 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(16) is 987 but output was 610
+#    Time: 6245 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(17) is 1597 but output was 987
+#    Time: 6965 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(18) is 2584 but output was 1597
+#    Time: 7725 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(19) is 4181 but output was 2584
+#    Time: 8525 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(20) is 6765 but output was 4181
+#    Time: 9365 ns  Iteration: 0  Instance: /fib_tb
 # Break key hit
-# Simulation stop requested.
-# Error opening C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib
-# Path name 'C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib' doesn't exist.
-# Compile of add.vhd was successful.
-# Compile of comparator.vhd was successful.
-# Compile of datapath.vhd was successful.
-# Compile of DE10_LITE_Golden_Top.v was successful.
-# Compile of decode7seg.vhd was successful.
-# Compile of fib.vhd was successful.
-# Compile of fib_tb.vhd was successful with warnings.
-# Compile of fsm.vhd was successful.
-# Compile of fsm_tb.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of stitt_tb.vhd failed with 2 errors.
-# Compile of top_level.vhd was successful.
-# Compile of top_level_tb.vhd was successful with warnings.
-# 14 compiles, 1 failed with 2 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.fib_tb(tb)
-# Loading work.datapath(rtl)
-# Loading work.mux(rtl)
-# Loading work.reg(rtl)
-# Loading work.add(arch)
-# Loading work.comparator(behavioral)
-# Loading work.fsm(behavioral)
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
-# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
-# ** Warning: incorrect result!Fib(1) is 1 but output was 0
-#    Time: 225 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(2) is 1 but output was 0
-#    Time: 275 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(3) is 2 but output was 0
-#    Time: 365 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(4) is 3 but output was 0
-#    Time: 415 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(5) is 5 but output was 0
-#    Time: 525 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(6) is 8 but output was 0
-#    Time: 575 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(7) is 13 but output was 0
-#    Time: 705 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(8) is 21 but output was 0
-#    Time: 755 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(9) is 34 but output was 0
-#    Time: 905 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(10) is 55 but output was 0
-#    Time: 955 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(11) is 89 but output was 0
-#    Time: 1125 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(12) is 144 but output was 0
-#    Time: 1175 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(13) is 233 but output was 0
-#    Time: 1365 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(14) is 377 but output was 0
-#    Time: 1415 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(15) is 610 but output was 0
-#    Time: 1625 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(16) is 987 but output was 0
-#    Time: 1675 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(17) is 1597 but output was 0
-#    Time: 1905 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(18) is 2584 but output was 0
-#    Time: 1955 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(19) is 4181 but output was 0
-#    Time: 2205 ns  Iteration: 0  Instance: /fib_tb
-# ** Warning: incorrect result!Fib(20) is 6765 but output was 0
-#    Time: 2255 ns  Iteration: 0  Instance: /fib_tb
-# Error opening C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib
-# Path name 'C:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim/incorrect result!Fib' doesn't exist.
-# WARNING: No extended dataflow license exists
-# End time: 04:25:51 on Mar 05,2024, Elapsed time: 1:29:03
-# Errors: 0, Warnings: 25
+# Break in Process line__20 at C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/reg.vhd line 20
+# Error opening C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1_sim/incorrect result!Fib
+# Path name 'C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1_sim/incorrect result!Fib' doesn't exist.
+# End time: 12:44:40 on Mar 05,2024, Elapsed time: 0:41:52
+# Errors: 0, Warnings: 24
+# Closing project C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1_sim/P1_sim.mpf

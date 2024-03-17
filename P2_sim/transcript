@@ -1,0 +1,439 @@
+# 0 compiles, 11 failed with no errors.
+# Compile of add.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of decode7seg.vhd was successful.
+# Compile of fib.vhd was successful.
+# Compile of fsm.vhd was successful.
+# Compile of fsm_tb.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of top_level_tb.vhd was successful with warnings.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.fsm_tb
+# vsim -gui work.fsm_tb 
+# Start time: 12:45:56 on Mar 05,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(tb)
+# Loading work.fsm(behavioral)
+# Load canceled
+# Compile of fib_tb.vhd was successful with warnings.
+vsim -gui work.fib_tb
+# End time: 12:46:47 on Mar 05,2024, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 8
+# vsim -gui work.fib_tb 
+# Start time: 12:46:47 on Mar 05,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.fib_tb(tb)
+# Loading ieee.std_logic_arith(body)
+# Loading work.datapath(rtl)
+# Loading work.mux(rtl)
+# Loading work.reg(rtl)
+# Loading work.add(arch)
+# Loading work.comparator(behavioral)
+# Loading work.fsm(behavioral)
+add wave -position insertpoint sim:/fib_tb/DATAPATH/*
+add wave -position insertpoint sim:/fib_tb/FSM/*
+run -all
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
+# ** Error: done never asserted.
+#    Time: 15125 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 30135 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(1) is 1 but output was 0
+#    Time: 30135 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 45145 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(2) is 1 but output was 0
+#    Time: 45145 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 60155 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(3) is 2 but output was 0
+#    Time: 60155 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 75165 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(4) is 3 but output was 0
+#    Time: 75165 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 90175 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(5) is 5 but output was 0
+#    Time: 90175 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 105185 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(6) is 8 but output was 0
+#    Time: 105185 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 120195 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(7) is 13 but output was 0
+#    Time: 120195 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 135205 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(8) is 21 but output was 0
+#    Time: 135205 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 150215 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(9) is 34 but output was 0
+#    Time: 150215 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 165225 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(10) is 55 but output was 0
+#    Time: 165225 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 180235 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(11) is 89 but output was 0
+#    Time: 180235 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 195245 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(12) is 144 but output was 0
+#    Time: 195245 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 210255 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(13) is 233 but output was 0
+#    Time: 210255 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 225265 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(14) is 377 but output was 0
+#    Time: 225265 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 240275 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(15) is 610 but output was 0
+#    Time: 240275 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 255285 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(16) is 987 but output was 0
+#    Time: 255285 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 270295 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(17) is 1597 but output was 0
+#    Time: 270295 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 285305 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(18) is 2584 but output was 0
+#    Time: 285305 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 300315 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(19) is 4181 but output was 0
+#    Time: 300315 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 315325 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(20) is 6765 but output was 0
+#    Time: 315325 ns  Iteration: 0  Instance: /fib_tb
+# Break key hit
+# Simulation stop requested.
+# Error opening C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib
+# Path name 'C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib' doesn't exist.
+# Error opening C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib
+# Path name 'C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib' doesn't exist.
+# Error opening C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib
+# Path name 'C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib' doesn't exist.
+# Compile of add.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of decode7seg.vhd was successful.
+# Compile of fib.vhd was successful.
+# Compile of fsm.vhd was successful.
+# Compile of fsm_tb.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of top_level_tb.vhd was successful with warnings.
+# Compile of fib_tb.vhd was successful with warnings.
+# 12 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.fib_tb(tb)
+# Loading work.datapath(rtl)
+# Loading work.mux(rtl)
+# Loading work.reg(rtl)
+# Loading work.add(arch)
+# Loading work.comparator(behavioral)
+# Loading work.fsm(behavioral)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
+# ** Error: done never asserted.
+#    Time: 15125 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 30135 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(1) is 1 but output was 0
+#    Time: 30135 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 45145 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(2) is 1 but output was 0
+#    Time: 45145 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 60155 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(3) is 2 but output was 0
+#    Time: 60155 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 75165 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(4) is 3 but output was 0
+#    Time: 75165 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 90175 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(5) is 5 but output was 0
+#    Time: 90175 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 105185 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(6) is 8 but output was 0
+#    Time: 105185 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 120195 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(7) is 13 but output was 0
+#    Time: 120195 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 135205 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(8) is 21 but output was 0
+#    Time: 135205 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 150215 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(9) is 34 but output was 0
+#    Time: 150215 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 165225 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(10) is 55 but output was 0
+#    Time: 165225 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 180235 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(11) is 89 but output was 0
+#    Time: 180235 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 195245 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(12) is 144 but output was 0
+#    Time: 195245 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 210255 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(13) is 233 but output was 0
+#    Time: 210255 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 225265 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(14) is 377 but output was 0
+#    Time: 225265 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 240275 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(15) is 610 but output was 0
+#    Time: 240275 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 255285 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(16) is 987 but output was 0
+#    Time: 255285 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 270295 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(17) is 1597 but output was 0
+#    Time: 270295 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 285305 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(18) is 2584 but output was 0
+#    Time: 285305 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 300315 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(19) is 4181 but output was 0
+#    Time: 300315 ns  Iteration: 0  Instance: /fib_tb
+# ** Error: done never asserted.
+#    Time: 315325 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(20) is 6765 but output was 0
+#    Time: 315325 ns  Iteration: 0  Instance: /fib_tb
+# Break key hit
+# Break in Process line__20 at C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2/reg.vhd line 20
+# Error opening C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib
+# Path name 'C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib' doesn't exist.
+# Compile of add.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of decode7seg.vhd was successful.
+# Compile of fib.vhd was successful.
+# Compile of fsm.vhd was successful.
+# Compile of fsm_tb.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of top_level_tb.vhd was successful with warnings.
+# Compile of fib_tb.vhd was successful with warnings.
+# 12 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.fib_tb(tb)
+# Loading work.datapath(rtl)
+# Loading work.mux(rtl)
+# Loading work.reg(rtl)
+# Loading work.add(arch)
+# Loading work.comparator(behavioral)
+# Loading work.fsm(behavioral)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
+# ** Warning: incorrect result!Fib(0) is 0 but output was 5
+#    Time: 195 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(2) is 1 but output was 5
+#    Time: 315 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(3) is 2 but output was 1
+#    Time: 355 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(4) is 3 but output was 34
+#    Time: 475 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(5) is 5 but output was 1
+#    Time: 515 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(6) is 8 but output was 34
+#    Time: 635 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(7) is 13 but output was 1
+#    Time: 675 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(8) is 21 but output was 233
+#    Time: 835 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(9) is 34 but output was 1
+#    Time: 875 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(10) is 55 but output was 233
+#    Time: 1035 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(11) is 89 but output was 1
+#    Time: 1075 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(12) is 144 but output was 1597
+#    Time: 1275 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(13) is 233 but output was 1
+#    Time: 1315 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(14) is 377 but output was 1597
+#    Time: 1515 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(15) is 610 but output was 1
+#    Time: 1555 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(16) is 987 but output was 10946
+#    Time: 1795 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(17) is 1597 but output was 1
+#    Time: 1835 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(18) is 2584 but output was 10946
+#    Time: 2075 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(19) is 4181 but output was 1
+#    Time: 2115 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(20) is 6765 but output was 75025
+#    Time: 2395 ns  Iteration: 0  Instance: /fib_tb
+# Break key hit
+# Break in Process line__20 at C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2/reg.vhd line 20
+# Error opening C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib
+# Path name 'C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib' doesn't exist.
+# Compile of add.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of decode7seg.vhd was successful.
+# Compile of fib.vhd was successful.
+# Compile of fsm.vhd was successful.
+# Compile of fsm_tb.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of top_level_tb.vhd was successful with warnings.
+# Compile of fib_tb.vhd was successful with warnings.
+# 12 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.fib_tb(tb)
+# Loading work.datapath(rtl)
+# Loading work.mux(rtl)
+# Loading work.reg(rtl)
+# Loading work.add(arch)
+# Loading work.comparator(behavioral)
+# Loading work.fsm(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
+# Break key hit
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/LE_COMP
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fib_tb/DATAPATH/N_COMP
+# ** Warning: incorrect result!Fib(0) is 0 but output was 5
+#    Time: 195 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(2) is 1 but output was 5
+#    Time: 315 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(3) is 2 but output was 1
+#    Time: 355 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(4) is 3 but output was 34
+#    Time: 475 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(5) is 5 but output was 1
+#    Time: 515 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(6) is 8 but output was 34
+#    Time: 635 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(7) is 13 but output was 1
+#    Time: 675 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(8) is 21 but output was 233
+#    Time: 835 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(9) is 34 but output was 1
+#    Time: 875 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(10) is 55 but output was 233
+#    Time: 1035 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(11) is 89 but output was 1
+#    Time: 1075 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(12) is 144 but output was 1597
+#    Time: 1275 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(13) is 233 but output was 1
+#    Time: 1315 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(14) is 377 but output was 1597
+#    Time: 1515 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(15) is 610 but output was 1
+#    Time: 1555 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(16) is 987 but output was 10946
+#    Time: 1795 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(17) is 1597 but output was 1
+#    Time: 1835 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(18) is 2584 but output was 10946
+#    Time: 2075 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(19) is 4181 but output was 1
+#    Time: 2115 ns  Iteration: 0  Instance: /fib_tb
+# ** Warning: incorrect result!Fib(20) is 6765 but output was 75025
+#    Time: 2395 ns  Iteration: 0  Instance: /fib_tb
+# Break key hit
+# Break in Process line__21 at C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2/mux.vhd line 21
+# Error opening C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib
+# Path name 'C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib' doesn't exist.
+# Error opening C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib
+# Path name 'C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P2_sim/incorrect result!Fib' doesn't exist.
+# End time: 13:00:12 on Mar 05,2024, Elapsed time: 0:13:25
+# Errors: 0, Warnings: 25

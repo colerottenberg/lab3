@@ -11,25 +11,25 @@ z2
 cModel Technology
 dC:/Users/coler/Documents/uf/spring24/dd/lab2/P1_sim
 Eadd
-Z0 w1708916698
+Z0 w1708902210
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 397
-Z4 dC:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim
-Z5 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/add.vhd
-Z6 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/add.vhd
+!i122 450
+Z4 dC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1_sim
+Z5 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/add.vhd
+Z6 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/add.vhd
 l0
 L7 1
 VBJ4PjfMdMEIfD:lecDG<L0
 !s100 R<ZNXAI_@6PSD>WP?W`3e3
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1709630348
+Z8 !s110 1709660537
 !i10b 1
-Z9 !s108 1709630348.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/add.vhd|
-Z11 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/add.vhd|
+Z9 !s108 1709660537.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/add.vhd|
+Z11 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/add.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
@@ -38,7 +38,7 @@ R1
 R2
 R3
 Z14 DEx4 work 3 add 0 22 BJ4PjfMdMEIfD:lecDG<L0
-!i122 397
+!i122 450
 l18
 L17 4
 VRSn]]B4_WIHgU9le6lJ0;2
@@ -58,21 +58,21 @@ R0
 R1
 R2
 R3
-!i122 398
+!i122 451
 R4
-Z15 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/comparator.vhd
-Z16 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/comparator.vhd
+Z15 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/comparator.vhd
+Z16 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/comparator.vhd
 l0
 L6 1
 V6hS<fFM6YFUoKL:e1Ae`c2
 !s100 mnZ^j>5HSX0][nC5;V81`1
 R7
 32
-R8
+Z17 !s110 1709660538
 !i10b 1
-R9
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/comparator.vhd|
-Z18 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/comparator.vhd|
+Z18 !s108 1709660538.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/comparator.vhd|
+Z20 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/comparator.vhd|
 !i113 1
 R12
 R13
@@ -80,90 +80,90 @@ Abehavioral
 R1
 R2
 R3
-Z19 DEx4 work 10 comparator 0 22 6hS<fFM6YFUoKL:e1Ae`c2
-!i122 398
+Z21 DEx4 work 10 comparator 0 22 6hS<fFM6YFUoKL:e1Ae`c2
+!i122 451
 l19
 L18 18
 Vm2O]IEP:cmI2MAmUfYdJ62
 !s100 M;56ZazoAQS:[IDXU0EC;3
 R7
 32
-R8
-!i10b 1
-R9
 R17
+!i10b 1
 R18
+R19
+R20
 !i113 1
 R12
 R13
 Edatapath
-Z20 w1709626944
+Z22 w1709658071
 R1
 R2
 R3
-!i122 399
+!i122 452
 R4
-Z21 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/datapath.vhd
-Z22 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/datapath.vhd
+Z23 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/datapath.vhd
+Z24 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/datapath.vhd
 l0
 L7 1
 VB_jo8hQYQf7P6TUMU]S:J3
 !s100 QTP8DZUJE9[_BVDOmA0Go3
 R7
 32
-R8
+R17
 !i10b 1
-R9
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/datapath.vhd|
-Z24 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/datapath.vhd|
+R18
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/datapath.vhd|
+Z26 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/datapath.vhd|
 !i113 1
 R12
 R13
 Artl
-R19
+R21
 R14
-Z25 DEx4 work 3 reg 0 22 :D62AO>iKSzgKWJl;iRe73
-Z26 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z27 DEx4 work 3 mux 0 22 `=m6S^EQgCe<@z`dzjZme2
+Z27 DEx4 work 3 reg 0 22 :D62AO>iKSzgKWJl;iRe73
+Z28 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z29 DEx4 work 3 mux 0 22 `=m6S^EQgCe<@z`dzjZme2
 R1
 R2
 R3
-Z28 DEx4 work 8 datapath 0 22 B_jo8hQYQf7P6TUMU]S:J3
-!i122 399
+Z30 DEx4 work 8 datapath 0 22 B_jo8hQYQf7P6TUMU]S:J3
+!i122 452
 l55
 L45 164
 V9D`ZznLaFla;1BA2Y:7H52
 !s100 H9B<^4kmdh[JA30;j=[S^1
 R7
 32
-R8
+R17
 !i10b 1
-R9
-R23
-R24
+R18
+R25
+R26
 !i113 1
 R12
 R13
 vDE10_LITE_Golden_Top
-R8
+R17
 !i10b 1
 !s100 ?j3UlP9ifGo>GC7kmUiKa1
 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IT:DlNj;;gXkg?8ICIKB9b3
+IP<55Vg2LVePa@N98m1ATY3
 VDg1SIo80bB@j0V0VzS_@n1
 R4
-R0
-8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/DE10_LITE_Golden_Top.v
-FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/DE10_LITE_Golden_Top.v
-!i122 400
+w1496335590
+8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/DE10_LITE_Golden_Top.v
+FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/DE10_LITE_Golden_Top.v
+!i122 453
 L0 29 111
 OV;L;2020.1;71
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/DE10_LITE_Golden_Top.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/DE10_LITE_Golden_Top.v|
+R18
+!s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/DE10_LITE_Golden_Top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/DE10_LITE_Golden_Top.v|
 !i113 1
 o-work work
 tCvgOpt 0
@@ -172,63 +172,63 @@ Edecode7seg
 R0
 R2
 R3
-!i122 401
+!i122 454
 R4
-Z29 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/decode7seg.vhd
-Z30 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/decode7seg.vhd
+Z31 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/decode7seg.vhd
+Z32 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/decode7seg.vhd
 l0
 L4 1
 Vn[3X<Pd4DUDP0HY_RhUzK3
 !s100 9DoEHo;[abhX44:78S]<93
 R7
 32
-R8
+R17
 !i10b 1
-R9
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/decode7seg.vhd|
-Z32 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/decode7seg.vhd|
+R18
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/decode7seg.vhd|
+Z34 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/decode7seg.vhd|
 !i113 1
 R12
 R13
 Artl
 R2
 R3
-Z33 DEx4 work 10 decode7seg 0 22 n[3X<Pd4DUDP0HY_RhUzK3
-!i122 401
+Z35 DEx4 work 10 decode7seg 0 22 n[3X<Pd4DUDP0HY_RhUzK3
+!i122 454
 l12
 L11 20
 V>^k<g74C[@IkSC=jBNaKH2
 !s100 :f^[2?O1>7YeahQbMf1a_0
 R7
 32
-R8
+R17
 !i10b 1
-R9
-R31
-R32
+R18
+R33
+R34
 !i113 1
 R12
 R13
 Efib
-Z34 w1709542552
+Z36 w1709584401
 R1
 R2
 R3
-!i122 402
+!i122 455
 R4
-Z35 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib.vhd
-Z36 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib.vhd
+Z37 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib.vhd
+Z38 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib.vhd
 l0
 L7 1
 V8UKaE]R7XBS2K9N>c^`ob0
 !s100 :bjU@h<B;M;b;<;o>[W0F0
 R7
 32
-Z37 !s110 1709630349
+R17
 !i10b 1
-R9
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib.vhd|
-Z39 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib.vhd|
+R18
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib.vhd|
+Z40 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fib.vhd|
 !i113 1
 R12
 R13
@@ -236,49 +236,49 @@ Afib_arch
 R1
 R2
 R3
-Z40 DEx4 work 3 fib 0 22 8UKaE]R7XBS2K9N>c^`ob0
-!i122 402
+Z41 DEx4 work 3 fib 0 22 8UKaE]R7XBS2K9N>c^`ob0
+!i122 455
 l24
 L19 59
 Vzf90SOo;33WoP@^=kzegB3
 !s100 _YQjcWgVm^n57gY`EamDK0
 R7
 32
-R37
+R17
 !i10b 1
-R9
-R38
+R18
 R39
+R40
 !i113 1
 R12
 R13
 Efib_crv_tb
-Z41 w1709543109
-Z42 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z42 w1709543109
+Z43 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 R1
 R2
 R3
 !i122 408
-R4
-Z43 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd
-Z44 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd
+Z44 dC:/Users/coler/Documents/uf/spring24/dd/lab3/P1_sim
+Z45 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd
+Z46 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd
 l0
 L13 1
 VZY[5YYENDZ3ePa^Ag24S<0
 !s100 AKKA7b@iUfH5lgz6lJeI60
 R7
 32
-R37
+!s110 1709630349
 !i10b 1
-Z45 !s108 1709630349.000000
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd|
-Z47 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd|
+!s108 1709630349.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd|
+Z48 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/stitt_tb.vhd|
 !i113 1
 R12
 R13
 Acrv
-R40
-R42
+R41
+R43
 R1
 R2
 R3
@@ -293,78 +293,78 @@ R7
 !s110 1709542565
 !i10b 1
 !s108 1709542565.000000
-R46
 R47
+R48
 !i113 1
 R12
 R13
 Efib_tb
-Z48 w1709543209
-R42
+R36
+R43
 R1
 R2
 R3
-!i122 403
+!i122 456
 R4
-Z49 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib_tb.vhd
-Z50 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib_tb.vhd
+Z49 8C:\Users\cole\OneDrive\Documents\Sping24\dd\lab3\P1\fib_tb.vhd
+Z50 FC:\Users\cole\OneDrive\Documents\Sping24\dd\lab3\P1\fib_tb.vhd
 l0
 L6 1
 VGnXm@]BBFMD4gHOonLGcG2
 !s100 `Wm4c5H4W]:k?gL8Z`F@A3
 R7
 32
-R37
+R17
 !i10b 1
-R45
-Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib_tb.vhd|
-Z52 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fib_tb.vhd|
+R18
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\cole\OneDrive\Documents\Sping24\dd\lab3\P1\fib_tb.vhd|
+Z52 !s107 C:\Users\cole\OneDrive\Documents\Sping24\dd\lab3\P1\fib_tb.vhd|
 !i113 1
 R12
 R13
 Atb
 Z53 DEx4 work 3 fsm 0 22 7fcJ_o7XOP<ED4NFlUg<E3
-R28
-R42
+R30
+R43
 R1
 R2
 R3
 DEx4 work 6 fib_tb 0 22 GnXm@]BBFMD4gHOonLGcG2
-!i122 403
+!i122 456
 l43
 L9 138
 VS=ZLXmz4@<UF0h`bV:G_W2
 !s100 GIhSZP<84W5bzh8m23kCK1
 R7
 32
-R37
+R17
 !i10b 1
-R45
+R18
 R51
 R52
 !i113 1
 R12
 R13
 Efsm
-Z54 w1709630344
+Z54 w1709660532
 R1
 R2
 R3
-!i122 404
+!i122 457
 R4
-Z55 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd
-Z56 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd
+Z55 8C:\Users\cole\OneDrive\Documents\Sping24\dd\lab3\P1\fsm.vhd
+Z56 FC:\Users\cole\OneDrive\Documents\Sping24\dd\lab3\P1\fsm.vhd
 l0
 L6 1
 V7fcJ_o7XOP<ED4NFlUg<E3
 !s100 >XLQNfk6GUdIEdRdl=g:J1
 R7
 32
-R37
+R17
 !i10b 1
-R45
-Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd|
-Z58 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm.vhd|
+R18
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\cole\OneDrive\Documents\Sping24\dd\lab3\P1\fsm.vhd|
+Z58 !s107 C:\Users\cole\OneDrive\Documents\Sping24\dd\lab3\P1\fsm.vhd|
 !i113 1
 R12
 R13
@@ -373,109 +373,109 @@ R1
 R2
 R3
 R53
-!i122 404
+!i122 457
 l36
-L31 119
-V;OGO_7SR4BFAiilY`UoVL0
-!s100 ]^<DUFZ7G@oggcCY[NP5L1
+L31 120
+V>bVN=2?aNz=2Fokzd;dJ<2
+!s100 Z75VEQ7n8ZKHKXj`J>EP<1
 R7
 32
-R37
+R17
 !i10b 1
-R45
+R18
 R57
 R58
 !i113 1
 R12
 R13
 Efsm_tb
-Z59 w1709529179
+R36
 R1
-R26
+R28
 R2
 R3
-!i122 405
+!i122 458
 R4
-Z60 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd
-Z61 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd
+Z59 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fsm_tb.vhd
+Z60 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fsm_tb.vhd
 l0
 L8 1
 VfTZXdIUb7hAQaA2W_7QA50
 !s100 JLFQf5`BbNFk8LaOOb?a21
 R7
 32
-R37
+R17
 !i10b 1
-R45
-Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd|
-Z63 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/fsm_tb.vhd|
+R18
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fsm_tb.vhd|
+Z62 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/fsm_tb.vhd|
 !i113 1
 R12
 R13
 Atb
 R53
 R1
-R26
+R28
 R2
 R3
 DEx4 work 6 fsm_tb 0 22 fTZXdIUb7hAQaA2W_7QA50
-!i122 405
+!i122 458
 l38
 L11 78
 V`=n@9d7j`YULHzhln0@jP1
 !s100 LKVlC6a9m;Y@G5HM76dYH0
 R7
 32
-R37
+R17
 !i10b 1
-R45
+R18
+R61
 R62
-R63
 !i113 1
 R12
 R13
 Emux
 R0
 R1
-R26
+R28
 R2
 R3
-!i122 406
+!i122 459
 R4
-Z64 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/mux.vhd
-Z65 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/mux.vhd
+Z63 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/mux.vhd
+Z64 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/mux.vhd
 l0
 L6 1
 V`=m6S^EQgCe<@z`dzjZme2
 !s100 zkCCzQoUT5BLNQ@VJ1?Ob1
 R7
 32
-R37
+Z65 !s110 1709660539
 !i10b 1
-R45
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/mux.vhd|
-Z67 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/mux.vhd|
+Z66 !s108 1709660539.000000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/mux.vhd|
+Z68 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/mux.vhd|
 !i113 1
 R12
 R13
 Artl
 R1
-R26
+R28
 R2
 R3
-R27
-!i122 406
+R29
+!i122 459
 l20
 L19 11
 VKmJ:HgPUW?>^>oCAGgoD13
 !s100 BaII_6[mm7ceF>:_g3NM_2
 R7
 32
-R37
+R65
 !i10b 1
-R45
 R66
 R67
+R68
 !i113 1
 R12
 R13
@@ -484,21 +484,21 @@ R0
 R1
 R2
 R3
-!i122 407
+!i122 460
 R4
-Z68 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/reg.vhd
-Z69 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/reg.vhd
+Z69 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/reg.vhd
+Z70 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/reg.vhd
 l0
 L5 1
 V:D62AO>iKSzgKWJl;iRe73
 !s100 [SemnS@FUQGhd<OSJGK;91
 R7
 32
-R37
+R65
 !i10b 1
-R45
-Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/reg.vhd|
-Z71 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/reg.vhd|
+R66
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/reg.vhd|
+Z72 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/reg.vhd|
 !i113 1
 R12
 R13
@@ -506,111 +506,111 @@ Artl
 R1
 R2
 R3
-R25
-!i122 407
+R27
+!i122 460
 l19
 L18 13
 VMzicXYDKEY3g:731]EYUN1
 !s100 ]eo]0bY5>6]6Z6A`Ze>8O0
 R7
 32
-R37
+R65
 !i10b 1
-R45
-R70
+R66
 R71
+R72
 !i113 1
 R12
 R13
 Etop_level
-Z72 w1709457429
+R36
 R1
 R2
 R3
-!i122 409
+!i122 461
 R4
-Z73 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd
-Z74 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd
+Z73 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level.vhd
+Z74 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level.vhd
 l0
 L5 1
 V3M:21af2fb>7;ii[cnLCM3
 !s100 87gH>KO:mH14[:JC3iTB41
 R7
 32
-R37
+R65
 !i10b 1
-R45
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd|
-Z76 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level.vhd|
+R66
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level.vhd|
+Z76 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level.vhd|
 !i113 1
 R12
 R13
 Adefault
-R33
+R35
 R53
-R28
+R30
 R1
 R2
 R3
 Z77 DEx4 work 9 top_level 0 22 3M:21af2fb>7;ii[cnLCM3
-!i122 409
+!i122 461
 l48
 L28 110
 VlV@bVg3:@kE4gC0k0Bh9Y3
 !s100 8J:39^dbFYkVa3S9bKU7n3
 R7
 32
-R37
+R65
 !i10b 1
-R45
+R66
 R75
 R76
 !i113 1
 R12
 R13
 Etop_level_tb
-Z78 w1709443761
+R36
 R1
-R26
+R28
 R2
 R3
-!i122 410
+!i122 462
 R4
-Z79 8C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level_tb.vhd
-Z80 FC:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level_tb.vhd
+Z78 8C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level_tb.vhd
+Z79 FC:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level_tb.vhd
 l0
 L8 1
 VNG1eZOz2HR7=o=X77n>B51
 !s100 ho8QIY<>=NW8Z`E`jKC3j1
 R7
 32
-R37
+R65
 !i10b 1
-R45
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level_tb.vhd|
-Z82 !s107 C:/Users/coler/Documents/uf/spring24/dd/lab3/P1/top_level_tb.vhd|
+R66
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level_tb.vhd|
+Z81 !s107 C:/Users/cole/OneDrive/Documents/Sping24/dd/lab3/P1/top_level_tb.vhd|
 !i113 1
 R12
 R13
 Atb
 R77
 R1
-R26
+R28
 R2
 R3
-Z83 DEx4 work 12 top_level_tb 0 22 NG1eZOz2HR7=o=X77n>B51
-!i122 410
+Z82 DEx4 work 12 top_level_tb 0 22 NG1eZOz2HR7=o=X77n>B51
+!i122 462
 l18
-Z84 L11 35
-Z85 VFjkALNBY?2`7RKk0?@eTY0
-Z86 !s100 1zbnja2:8ed<[8YF1eoC42
+Z83 L11 35
+Z84 VFjkALNBY?2`7RKk0?@eTY0
+Z85 !s100 1zbnja2:8ed<[8YF1eoC42
 R7
 32
-R37
+R65
 !i10b 1
-R45
+R66
+R80
 R81
-R82
 !i113 1
 R12
 R13
